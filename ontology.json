@@ -1,7 +1,7 @@
 {
   "interfaces": {},
   "ontology_tree": {
-    "root": {
+    "Control": {
       "behaviour": {
         "arc": [],
         "graph": [
@@ -14,6 +14,140 @@
         ]
       },
       "children": [],
+      "name": "Control",
+      "parents": [
+        "root"
+      ],
+      "structure": {
+        "arc": {
+          "signal": {
+            "link": []
+          }
+        },
+        "node": {
+          "constant": [
+            "lumped"
+          ],
+          "dynamic": [
+            "lumped",
+            "distributed"
+          ],
+          "event": [
+            "lumped",
+            "distributed"
+          ]
+        },
+        "token": {
+          "signal": []
+        }
+      },
+      "type": "inter"
+    },
+    "Properties": {
+      "behaviour": {
+        "arc": [],
+        "graph": [
+          "network"
+        ],
+        "node": [
+          "frame",
+          "state",
+          "constant"
+        ]
+      },
+      "children": [],
+      "name": "Properties",
+      "parents": [
+        "root"
+      ],
+      "structure": {
+        "arc": {
+          "tokenC": {}
+        },
+        "node": {
+          "constant": [
+            "lumped"
+          ],
+          "dynamic": [
+            "lumped",
+            "distributed"
+          ],
+          "event": [
+            "lumped",
+            "distributed"
+          ]
+        },
+        "token": {
+          "tokenC": []
+        }
+      },
+      "type": "inter"
+    },
+    "System": {
+      "behaviour": {
+        "arc": [],
+        "graph": [
+          "network"
+        ],
+        "node": [
+          "frame",
+          "state",
+          "constant"
+        ]
+      },
+      "children": [],
+      "name": "System",
+      "parents": [
+        "root"
+      ],
+      "structure": {
+        "arc": {
+          "tokenA": {
+            "mechanismA": []
+          },
+          "tokenB": {
+            "mechanismB": []
+          }
+        },
+        "node": {
+          "constant": [
+            "lumped"
+          ],
+          "dynamic": [
+            "lumped",
+            "distributed"
+          ],
+          "event": [
+            "lumped",
+            "distributed"
+          ]
+        },
+        "token": {
+          "tokenA": [
+            "tokenA_types"
+          ],
+          "tokenB": []
+        }
+      },
+      "type": "inter"
+    },
+    "root": {
+      "behaviour": {
+        "arc": [],
+        "graph": [
+          "network"
+        ],
+        "node": [
+          "frame",
+          "state",
+          "constant"
+        ]
+      },
+      "children": [
+        "System",
+        "Properties",
+        "Control"
+      ],
       "name": "root",
       "parents": [],
       "structure": {
@@ -38,6 +172,9 @@
   },
   "rules": {
     "network_enable_adding_indices": {
+      "Control": false,
+      "Properties": false,
+      "System": false,
       "root": false
     },
     "nodes_allowing_token_conversion": [
