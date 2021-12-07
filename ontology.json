@@ -1,0 +1,59 @@
+{
+  "interfaces": {},
+  "ontology_tree": {
+    "root": {
+      "behaviour": {
+        "arc": [],
+        "graph": [
+          "network"
+        ],
+        "node": [
+          "frame",
+          "state",
+          "constant"
+        ]
+      },
+      "children": [],
+      "name": "root",
+      "parents": [],
+      "structure": {
+        "arc": {},
+        "node": {
+          "constant": [
+            "lumped"
+          ],
+          "dynamic": [
+            "lumped",
+            "distributed"
+          ],
+          "event": [
+            "lumped",
+            "distributed"
+          ]
+        },
+        "token": {}
+      },
+      "type": "intra"
+    }
+  },
+  "rules": {
+    "network_enable_adding_indices": {
+      "root": false
+    },
+    "nodes_allowing_token_conversion": [
+      "dynamic",
+      "event"
+    ],
+    "nodes_allowing_token_injection": [
+      "constant",
+      "dynamic"
+    ],
+    "nodes_allowing_token_transfer": [
+      "intraface"
+    ],
+    "numerical_value": "value",
+    "variable_classes_being_state_variables": [],
+    "variable_classes_having_port_variables": []
+  },
+  "version": "3"
+}
