@@ -1,0 +1,275 @@
+{
+  "version": "8",
+  "variables": {
+    "1": {
+      "aliases": "{'global_ID': ' V_1', 'python': 't', 'cpp': 't', 'matlab': 't', 'latex': 't', 'internal_code': 't'}",
+      "doc": "time",
+      "equations": "{}",
+      "index_structures": "[1]",
+      "label": "t",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "2": {
+      "aliases": "{'global_ID': ' V_2', 'python': 'value', 'cpp': 'value', 'matlab': 'value', 'latex': 'value', 'internal_code': 'value'}",
+      "doc": "numerical value",
+      "equations": "{}",
+      "index_structures": "[]",
+      "label": "value",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "3": {
+      "aliases": "{'global_ID': ' V_3', 'python': 'to', 'cpp': 'to', 'matlab': 'to', 'latex': 'to', 'internal_code': 'to'}",
+      "doc": "initial time",
+      "equations": "{1: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "to",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "4": {
+      "aliases": "{'global_ID': ' V_4', 'python': 'te', 'cpp': 'te', 'matlab': 'te', 'latex': 'te', 'internal_code': 'te'}",
+      "doc": "end time",
+      "equations": "{2: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'end time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "te",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "5": {
+      "aliases": "{'global_ID': ' V_5', 'python': 'F', 'cpp': 'F', 'matlab': 'F', 'latex': 'F', 'internal_code': 'F'}",
+      "doc": "incidence matrix of directed graph",
+      "equations": "{}",
+      "index_structures": "[1, 2]",
+      "label": "F",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "network",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    }
+  },
+  "indices": {
+    "1": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_1",
+        "python": "N",
+        "cpp": "N",
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N"
+      },
+      "tokens": null
+    },
+    "2": {
+      "type": "index",
+      "label": "arc",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_2",
+        "python": "A",
+        "cpp": "A",
+        "matlab": "A",
+        "latex": "A",
+        "internal_code": "A"
+      },
+      "tokens": null
+    },
+    "3": {
+      "type": "index",
+      "label": "molecule",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_3",
+        "python": "M",
+        "cpp": "M",
+        "matlab": "M",
+        "latex": "M",
+        "internal_code": "M"
+      },
+      "tokens": "tokenA"
+    },
+    "4": {
+      "type": "index",
+      "label": "molecule_conversion",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_4",
+        "python": "CM",
+        "cpp": "CM",
+        "matlab": "CM",
+        "latex": "CM",
+        "internal_code": "CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": "block_index",
+      "label": "node & molecule",
+      "indices": [
+        1,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_5",
+        "python": "N_x_M",
+        "cpp": "N_x_M",
+        "matlab": "N_x_M",
+        "latex": "{N M}",
+        "internal_code": "N & M"
+      },
+      "tokens": "tokenA"
+    },
+    "6": {
+      "type": "block_index",
+      "label": "arc & molecule",
+      "indices": [
+        2,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_6",
+        "python": "A_x_M",
+        "cpp": "A_x_M",
+        "matlab": "A_x_M",
+        "latex": "{A M}",
+        "internal_code": "A & M"
+      },
+      "tokens": "tokenA"
+    },
+    "7": {
+      "type": "block_index",
+      "label": "node & molecule_conversion",
+      "indices": [
+        1,
+        4
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_7",
+        "python": "N_x_CM",
+        "cpp": "N_x_CM",
+        "matlab": "N_x_CM",
+        "latex": "{N CM}",
+        "internal_code": "N & CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "type": "block_index",
+      "label": "molecule_conversion & molecule",
+      "indices": [
+        4,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_8",
+        "python": "CM_x_M",
+        "cpp": "CM_x_M",
+        "matlab": "CM_x_M",
+        "latex": "{CM M}",
+        "internal_code": "CM & M"
+      },
+      "tokens": [
+        "tokenA",
+        {
+          "instances": [
+            "A",
+            "B",
+            "C"
+          ],
+          "conversions": [
+            {
+              "reactants": [
+                "A",
+                "B"
+              ],
+              "products": [
+                "C"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Ontology_global_IDs": {
+    "variable": 5,
+    "equation": 2
+  }
+}

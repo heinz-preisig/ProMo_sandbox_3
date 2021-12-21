@@ -1,0 +1,20 @@
+{
+  "molecule": {
+    "instances": [
+      "A",
+      "B",
+      "C"
+    ],
+    "conversions": [
+      {
+        "reactants": [
+          "A",
+          "B"
+        ],
+        "products": [
+          "C"
+        ]
+      }
+    ]
+  }
+}

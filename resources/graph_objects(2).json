@@ -60,8 +60,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -92,16 +92,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             },
             "selected": {
@@ -116,7 +116,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             }
           },
@@ -124,16 +124,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             },
             "selected": {
@@ -148,7 +148,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             }
           }
@@ -390,17 +390,17 @@
             "enabled": {
               "action": [],
               "colour": [
-                186,
-                189,
-                182,
-                255
+                255,
+                255,
+                255,
+                100
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -410,12 +410,12 @@
                 79,
                 255
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             }
           },
           "dynamic|lumped": {
@@ -427,12 +427,12 @@
                 41,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             },
             "selected": {
               "action": [],
@@ -442,12 +442,12 @@
                 79,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             }
           },
           "event|lumped": {
@@ -642,8 +642,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -659,16 +659,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             }
           },
@@ -676,16 +676,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             }
           }
@@ -947,27 +947,27 @@
                 182,
                 255
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             },
             "enabled": {
               "action": [],
               "colour": [
-                186,
-                189,
-                182,
-                255
+                255,
+                255,
+                255,
+                100
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -977,12 +977,12 @@
                 79,
                 255
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             }
           },
           "dynamic|lumped": {
@@ -994,12 +994,12 @@
                 182,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             },
             "enabled": {
               "action": [],
@@ -1009,12 +1009,12 @@
                 41,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             },
             "selected": {
               "action": [],
@@ -1024,12 +1024,12 @@
                 79,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             }
           },
           "event|lumped": {
@@ -1239,12 +1239,6 @@
               "position_y": 0,
               "width": 15
             }
-          },
-          "tokenA|mechanismA|lumped": {
-            "-": {
-              "height": 15,
-              "width": 15
-            }
           }
         },
         "root": {
@@ -1252,8 +1246,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -1299,16 +1293,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             },
             "open": {
@@ -1323,7 +1317,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             },
             "selected": {
@@ -1338,7 +1332,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "solid",
+              "style": "no pen",
               "width": 2
             }
           },
@@ -1346,16 +1340,16 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
-                255
+                255,
+                255,
+                255,
+                100
               ],
               "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             },
             "open": {
@@ -1370,7 +1364,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             },
             "selected": {
@@ -1385,7 +1379,7 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "style": "dashed",
+              "style": "no pen",
               "width": 2
             }
           }
@@ -1409,12 +1403,6 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 10
-            }
-          },
-          "tokenA|mechanismA|lumped": {
-            "-": {
-              "height": 10,
               "width": 10
             }
           }
@@ -1610,13 +1598,6 @@
               "position_x": 0,
               "position_y": 50
             }
-          },
-          "dynamic|lumped": {
-            "-": {
-              "movable": true,
-              "position_x": 0,
-              "position_y": 50
-            }
           }
         },
         "named_network": {
@@ -1634,13 +1615,6 @@
               "movable": false,
               "position_x": -15,
               "position_y": 0,
-              "width": 30
-            }
-          },
-          "dynamic|lumped": {
-            "-": {
-              "height": 30,
-              "position_x": -15,
               "width": 30
             }
           }
@@ -1665,9 +1639,7 @@
           },
           "dynamic|lumped": {
             "-": {
-              "height": 40,
-              "position_x": -10,
-              "width": 40
+              "position_x": -10
             }
           }
         },
@@ -1681,32 +1653,27 @@
                 182,
                 255
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             },
             "enabled": {
-              "action": [
-                "add arc",
-                "change arc",
-                "zoom in",
-                "name node"
-              ],
+              "action": [],
               "colour": [
-                186,
-                189,
-                182,
-                255
+                255,
+                255,
+                255,
+                100
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             },
             "selected": {
               "action": [],
@@ -1716,12 +1683,12 @@
                 79,
                 255
               ],
-              "height": 35,
-              "layer": "node",
+              "height": 10,
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 35
+              "width": 10
             }
           },
           "dynamic|lumped": {
@@ -1733,16 +1700,17 @@
                 182,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             },
             "enabled": {
               "action": [
                 "add arc",
+                "begin arc",
                 "change arc",
                 "zoom in",
                 "name node"
@@ -1753,12 +1721,12 @@
                 41,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             },
             "selected": {
               "action": [],
@@ -1768,12 +1736,12 @@
                 79,
                 255
               ],
-              "height": 30,
+              "height": 40,
               "layer": "node",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
-              "width": 30
+              "width": 40
             }
           },
           "event|lumped": {
@@ -1795,6 +1763,7 @@
             "enabled": {
               "action": [
                 "add arc",
+                "begin arc",
                 "change arc",
                 "zoom in",
                 "name node"
@@ -2041,8 +2010,8 @@
   "tokens": {
     "signal": {
       "colour": [
-        196,
-        160,
+        255,
+        170,
         0,
         255
       ]

@@ -35,6 +35,17 @@
           },
           "cursor": "-"
         },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
@@ -166,17 +177,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -359,24 +359,35 @@
         "('arc_edge', 'head', '-')": {
           "left": {
             "state": "-",
-            "output": "insert knot"
+            "output": "-"
           },
           "right": {
             "state": "-",
-            "output": "re-direct arc"
+            "output": "-"
           },
-          "cursor": "TC_L_insknot-R_recon"
+          "cursor": "-"
+        },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
         },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
-            "output": "insert knot"
+            "output": "-"
           },
           "right": {
             "state": "-",
-            "output": "re-direct arc"
+            "output": "-"
           },
-          "cursor": "TC_L_insknot-R_recon"
+          "cursor": "-"
         },
         "('connector', 'name', '-')": {
           "left": {
@@ -498,17 +509,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -699,6 +699,17 @@
           },
           "cursor": "-"
         },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
@@ -830,17 +841,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -1031,6 +1031,17 @@
           },
           "cursor": "-"
         },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
@@ -1162,17 +1173,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -1363,6 +1363,17 @@
           },
           "cursor": "-"
         },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
@@ -1494,17 +1505,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -1695,6 +1695,17 @@
           },
           "cursor": "TC_L_blank-R_del"
         },
+        "('arc_edge', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "-"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "-"
+        },
         "('arc_edge', 'tail', '-')": {
           "left": {
             "state": "-",
@@ -1826,17 +1837,6 @@
             "state": "-",
             "output": "-"
           }
-        },
-        "('arc_edge', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "-"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "-"
         },
         "('arc_edge', 'head', 'enabled')": {
           "left": {
@@ -2084,6 +2084,17 @@
           },
           "cursor": "-"
         },
+        "('node_simple', 'root', 'enabled')": {
+          "left": {
+            "state": "-",
+            "output": "inject"
+          },
+          "right": {
+            "state": "-",
+            "output": "-"
+          },
+          "cursor": "BR_inject_token"
+        },
         "('node_viewed', 'root', '-')": {
           "left": {
             "state": "-",
@@ -2105,17 +2116,6 @@
             "output": "-"
           },
           "cursor": "TR_enter"
-        },
-        "('node_simple', 'root', 'enabled')": {
-          "left": {
-            "state": "-",
-            "output": "inject"
-          },
-          "right": {
-            "state": "-",
-            "output": "-"
-          },
-          "cursor": "BR_inject_token"
         },
         "('arc_edge', 'head', '-')": {
           "left": {

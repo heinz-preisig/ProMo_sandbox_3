@@ -60,8 +60,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -92,9 +92,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                46,
+                52,
+                54,
                 255
               ],
               "layer": "mainPanel",
@@ -124,9 +124,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
+                239,
+                41,
+                41,
                 255
               ],
               "layer": "mainPanel",
@@ -642,8 +642,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -659,9 +659,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                46,
+                52,
+                54,
                 255
               ],
               "layer": "mainPanel",
@@ -676,9 +676,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
+                239,
+                41,
+                41,
                 255
               ],
               "layer": "mainPanel",
@@ -1252,8 +1252,8 @@
             "enabled": {
               "action": [],
               "colour": [
-                0,
-                0,
+                196,
+                160,
                 0,
                 255
               ],
@@ -1299,9 +1299,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
+                46,
+                52,
+                54,
                 255
               ],
               "layer": "mainPanel",
@@ -1346,9 +1346,9 @@
             "enabled": {
               "action": [],
               "colour": [
-                52,
-                101,
-                164,
+                239,
+                41,
+                41,
                 255
               ],
               "layer": "mainPanel",
@@ -2041,8 +2041,8 @@
   "tokens": {
     "signal": {
       "colour": [
-        196,
-        160,
+        255,
+        170,
         0,
         255
       ]

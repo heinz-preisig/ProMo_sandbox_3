@@ -1,0 +1,64 @@
+
+
+\newenvironment{eq}{\begin{minipage}{15cm}$}{$\end{minipage} }
+%\newenvironment{lay}{\catcode`\_=12}{\catcode`\_=8}
+\renewcommand{\arraystretch}{2}
+
+\begin{longtable}{|p{0.5cm}|p{15cm}|p{6cm}|p{3cm}|}\hline
+no & equation &documentation &layer \\\hline\hline
+\endhead
+\hline \multicolumn{4}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+
+\hyperlink{"v:3"}{ 1 }\hypertarget{"e:1"}{  } &
+    \begin{eq}{{t^o}}{_{N}} := Set({t}{_{N}}, {\#}{_{}})\end{eq} &
+    \begin{lay}initial time\end{lay} &
+    \begin{lay}root\end{lay} \\
+\hyperlink{"v:4"}{ 2 }\hypertarget{"e:2"}{  } &
+    \begin{eq}{{t^e}}{_{N}} := Set({t}{_{N}}, {\#}{_{}})\end{eq} &
+    \begin{lay}end time\end{lay} &
+    \begin{lay}root\end{lay} \\
+\hyperlink{"v:11"}{ 6 }\hypertarget{"e:6"}{  } &
+    \begin{eq}{K}{_{}} := Set({\nu}{_{}}, {\#}{_{}})\end{eq} &
+    \begin{lay}frequency a\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:12"}{ 7 }\hypertarget{"e:7"}{  } &
+    \begin{eq}{L}{_{}} := Set({\nu}{_{}}, {\#}{_{}})\end{eq} &
+    \begin{lay}frequency b\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:13"}{ 8 }\hypertarget{"e:8"}{  } &
+    \begin{eq}{M}{_{}} := Set({\#}{_{}}, {\#}{_{}})\end{eq} &
+    \begin{lay}a transprort constant\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:14"}{ 9 }\hypertarget{"e:9"}{  } &
+    \begin{eq}{N}{_{}} := Set({\#}{_{}}, {\#}{_{}})\end{eq} &
+    \begin{lay}a transport constant\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:15"}{ 10 }\hypertarget{"e:10"}{  } &
+    \begin{eq}{{\pi^{a}}}{_{N}} := {M}{_{}} \, . \, {x}{_{N}}\end{eq} &
+    \begin{lay}effort a\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:16"}{ 11 }\hypertarget{"e:11"}{  } &
+    \begin{eq}{{\pi^{b}}}{_{N}} := {N}{_{}} \, . \, {x}{_{N}}\end{eq} &
+    \begin{lay}effort b\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:17"}{ 12 }\hypertarget{"e:12"}{  } &
+    \begin{eq}{{\hat{x}^{a}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({K}{_{}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{a}}}{_{N}}\right)\end{eq} &
+    \begin{lay}flow of x with mechanism a\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:18"}{ 13 }\hypertarget{"e:13"}{  } &
+    \begin{eq}{{\hat{x}^{b}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({K}{_{}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{b}}}{_{N}}\right)\end{eq} &
+    \begin{lay}flow of x with mechanism b\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:19"}{ 14 }\hypertarget{"e:14"}{  } &
+    \begin{eq}{{\dot{x}}}{_{N}} := {{\hat{x}^{a}}}{_{N}}  + {{\hat{x}^{b}}}{_{N}}\end{eq} &
+    \begin{lay}differential state\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:6"}{ 15 }\hypertarget{"e:15"}{  } &
+    \begin{eq}{x}{_{N}} := \int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \, {{\dot{x}}}{_{N}} \enskip d\,{t}{_{N}}\end{eq} &
+    \begin{lay}state\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hline
+\end{longtable}

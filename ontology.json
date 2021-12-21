@@ -3,7 +3,9 @@
   "ontology_tree": {
     "Control": {
       "behaviour": {
-        "arc": [],
+        "arc": [
+          "link"
+        ],
         "graph": [
           "network"
         ],
@@ -29,12 +31,10 @@
             "lumped"
           ],
           "dynamic": [
-            "lumped",
-            "distributed"
+            "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -69,12 +69,10 @@
             "lumped"
           ],
           "dynamic": [
-            "lumped",
-            "distributed"
+            "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -85,7 +83,9 @@
     },
     "System": {
       "behaviour": {
-        "arc": [],
+        "arc": [
+          "transport"
+        ],
         "graph": [
           "network"
         ],
@@ -103,10 +103,14 @@
       "structure": {
         "arc": {
           "tokenA": {
-            "mechanismA": []
+            "mechanismA": [
+              "lumped"
+            ]
           },
           "tokenB": {
-            "mechanismB": []
+            "mechanismB": [
+              "lumped"
+            ]
           }
         },
         "node": {
@@ -114,17 +118,15 @@
             "lumped"
           ],
           "dynamic": [
-            "lumped",
-            "distributed"
+            "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
           "tokenA": [
-            "gugus"
+            "molecule"
           ],
           "tokenB": []
         }
@@ -157,12 +159,10 @@
             "lumped"
           ],
           "dynamic": [
-            "lumped",
-            "distributed"
+            "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {}
@@ -172,7 +172,7 @@
   },
   "rules": {
     "network_enable_adding_indices": {
-      "Control": false,
+      "Control": true,
       "Properties": false,
       "System": false,
       "root": false
@@ -190,7 +190,12 @@
     ],
     "numerical_value": "value",
     "variable_classes_being_state_variables": [],
-    "variable_classes_having_port_variables": []
+    "variable_classes_having_port_variables": [
+      "constant",
+      "frame",
+      "network",
+      "state"
+    ]
   },
   "version": "3"
 }
