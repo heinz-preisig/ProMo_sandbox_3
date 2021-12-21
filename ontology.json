@@ -105,10 +105,8 @@
           "tokenA": {
             "mechanismA": [
               "lumped"
-            ]
-          },
-          "tokenB": {
-            "mechanismB": [
+            ],
+            "mechansimB": [
               "lumped"
             ]
           }
@@ -127,8 +125,7 @@
         "token": {
           "tokenA": [
             "molecule"
-          ],
-          "tokenB": []
+          ]
         }
       },
       "type": "inter"

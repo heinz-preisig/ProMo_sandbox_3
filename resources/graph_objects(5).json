@@ -120,7 +120,7 @@
               "width": 2
             }
           },
-          "tokenA|mechansimB|lumped": {
+          "tokenB|mechanismB|lumped": {
             "enabled": {
               "action": [],
               "colour": [
@@ -672,7 +672,7 @@
               "width": 2
             }
           },
-          "tokenA|mechansimB|lumped": {
+          "tokenB|mechanismB|lumped": {
             "enabled": {
               "action": [],
               "colour": [
@@ -1239,6 +1239,12 @@
               "position_y": 0,
               "width": 15
             }
+          },
+          "tokenA|mechanismA|lumped": {
+            "-": {
+              "height": 15,
+              "width": 15
+            }
           }
         },
         "root": {
@@ -1336,7 +1342,7 @@
               "width": 2
             }
           },
-          "tokenA|mechansimB|lumped": {
+          "tokenB|mechanismB|lumped": {
             "enabled": {
               "action": [],
               "colour": [
@@ -1403,6 +1409,12 @@
               "movable": false,
               "position_x": 0,
               "position_y": 0,
+              "width": 10
+            }
+          },
+          "tokenA|mechanismA|lumped": {
+            "-": {
+              "height": 10,
               "width": 10
             }
           }
@@ -1598,6 +1610,13 @@
               "position_x": 0,
               "position_y": 50
             }
+          },
+          "dynamic|lumped": {
+            "-": {
+              "movable": true,
+              "position_x": 0,
+              "position_y": 50
+            }
           }
         },
         "named_network": {
@@ -1617,6 +1636,13 @@
               "position_y": 0,
               "width": 30
             }
+          },
+          "dynamic|lumped": {
+            "-": {
+              "height": 30,
+              "position_x": -15,
+              "width": 30
+            }
           }
         },
         "network": {
@@ -1634,6 +1660,13 @@
               "movable": false,
               "position_x": -10,
               "position_y": 0,
+              "width": 40
+            }
+          },
+          "dynamic|lumped": {
+            "-": {
+              "height": 40,
+              "position_x": -10,
               "width": 40
             }
           }
@@ -2019,6 +2052,14 @@
         239,
         41,
         41,
+        255
+      ]
+    },
+    "tokenB": {
+      "colour": [
+        52,
+        101,
+        164,
         255
       ]
     },

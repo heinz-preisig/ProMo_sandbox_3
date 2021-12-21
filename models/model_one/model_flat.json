@@ -7,16 +7,9 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ]
+        "tokenA": []
       },
-      "injected_typed_tokens": {
-        "tokenA": [
-          "A"
-        ]
-      },
+      "injected_typed_tokens": {},
       "tokenA": []
     },
     "2": {
@@ -26,10 +19,10 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenB": []
+        "tokenA": []
       },
       "injected_typed_tokens": {},
-      "tokenB": []
+      "tokenA": []
     },
     "3": {
       "name": "default",
@@ -38,19 +31,10 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
-      "injected_typed_tokens": {
-        "tokenA": [
-          "B"
-        ]
-      },
-      "tokenA": [],
-      "tokenB": []
+      "injected_typed_tokens": {},
+      "tokenA": []
     },
     "4": {
       "name": "default",
@@ -59,16 +43,11 @@
       "class": "node_simple",
       "type": "dynamic|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
       "conversions": {},
       "injected_typed_tokens": {},
-      "tokenA": [],
-      "tokenB": []
+      "tokenA": []
     },
     "5": {
       "name": "default",
@@ -77,16 +56,11 @@
       "class": "node_simple",
       "type": "dynamic|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
       "conversions": {},
       "injected_typed_tokens": {},
-      "tokenA": [],
-      "tokenB": []
+      "tokenA": []
     }
   },
   "arcs": {
@@ -95,10 +69,7 @@
       "source": 1,
       "sink": 4,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -109,10 +80,7 @@
       "source": 4,
       "sink": 5,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -123,10 +91,7 @@
       "source": 5,
       "sink": 3,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -136,33 +101,22 @@
       "name": "2 | 4",
       "source": 2,
       "sink": 4,
-      "token": "tokenB",
+      "token": "tokenA",
       "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
-      "mechanism": "mechanismB",
+      "mechanism": "mechanismA",
       "nature": "lumped"
     },
     "4": {
       "name": "4 | 5",
       "source": 4,
       "sink": 5,
-      "token": "tokenB",
+      "token": "tokenA",
       "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
-      "mechanism": "mechanismB",
-      "nature": "lumped"
-    },
-    "5": {
-      "name": "5 | 3",
-      "source": 5,
-      "sink": 3,
-      "token": "tokenB",
-      "typed_tokens": [],
-      "network": "System",
-      "named_network": "A-System",
-      "mechanism": "mechanismB",
+      "mechanism": "mechansimB",
       "nature": "lumped"
     }
   },
@@ -208,13 +162,6 @@
     "tokenA": {
       "0": [
         1,
-        3,
-        4,
-        5
-      ]
-    },
-    "tokenB": {
-      "0": [
         2,
         3,
         4,
@@ -226,95 +173,43 @@
   "typed_token_domains": {
     "tokenA": {
       "0": {
-        "molecule": {
-          "A": [
-            1,
-            3,
-            4,
-            5
-          ],
-          "B": [
-            1,
-            3,
-            4,
-            5
-          ]
-        }
+        "molecule": {}
       }
-    },
-    "tokenB": {
-      "0": {}
     }
   },
   "token_incidence_matrix": {
     "0": {
-      "tokenB": {
-        "2": [
-          3
+      "tokenA": {
+        "1": [
+          0
         ],
         "4": [
+          0,
+          1,
           3,
           4
         ],
         "5": [
-          4,
-          5
+          1,
+          2,
+          4
         ],
         "3": [
-          5
+          2
+        ],
+        "2": [
+          3
         ]
       }
     }
   },
   "typed_token_incidence_matrix": {
     "tokenA": {
-      "0": {
-        "A": {
-          "1": [
-            0
-          ],
-          "4": [
-            0,
-            1
-          ],
-          "5": [
-            1,
-            2
-          ],
-          "3": [
-            2
-          ]
-        },
-        "B": {
-          "1": [
-            0
-          ],
-          "4": [
-            0,
-            1
-          ],
-          "5": [
-            1,
-            2
-          ],
-          "3": [
-            2
-          ]
-        }
-      }
-    },
-    "tokenB": {
       "0": {}
     }
   },
   "typed_token_lists": {
     "tokenA": {
-      "0": [
-        "A",
-        "B"
-      ]
-    },
-    "tokenB": {
       "0": []
     }
   }

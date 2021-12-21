@@ -182,7 +182,7 @@
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
     },
     "17": {
-      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': '{x^o}', 'internal_code': 'xo'}",
+      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': 'xo', 'internal_code': 'xo'}",
       "doc": "initial condition",
       "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
       "index_structures": "[1]",

@@ -93,16 +93,9 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ]
+        "tokenA": []
       },
-      "injected_typed_tokens": {
-        "tokenA": [
-          "A"
-        ]
-      },
+      "injected_typed_tokens": {},
       "tokenA": []
     },
     "2": {
@@ -112,10 +105,10 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenB": []
+        "tokenA": []
       },
       "injected_typed_tokens": {},
-      "tokenB": []
+      "tokenA": []
     },
     "3": {
       "name": "default",
@@ -124,19 +117,10 @@
       "class": "node_simple",
       "type": "constant|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
-      "injected_typed_tokens": {
-        "tokenA": [
-          "B"
-        ]
-      },
-      "tokenA": [],
-      "tokenB": []
+      "injected_typed_tokens": {},
+      "tokenA": []
     },
     "4": {
       "name": "default",
@@ -145,16 +129,11 @@
       "class": "node_simple",
       "type": "dynamic|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
       "conversions": {},
       "injected_typed_tokens": {},
-      "tokenA": [],
-      "tokenB": []
+      "tokenA": []
     },
     "5": {
       "name": "default",
@@ -163,16 +142,11 @@
       "class": "node_simple",
       "type": "dynamic|lumped",
       "tokens": {
-        "tokenA": [
-          "A",
-          "B"
-        ],
-        "tokenB": []
+        "tokenA": []
       },
       "conversions": {},
       "injected_typed_tokens": {},
-      "tokenA": [],
-      "tokenB": []
+      "tokenA": []
     }
   },
   "domains": {},
@@ -182,10 +156,7 @@
       "source": 1,
       "sink": 4,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -196,10 +167,7 @@
       "source": 4,
       "sink": 5,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -210,10 +178,7 @@
       "source": 5,
       "sink": 3,
       "token": "tokenA",
-      "typed_tokens": [
-        "A",
-        "B"
-      ],
+      "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
       "mechanism": "mechanismA",
@@ -223,33 +188,22 @@
       "name": "2 | 4",
       "source": 2,
       "sink": 4,
-      "token": "tokenB",
+      "token": "tokenA",
       "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
-      "mechanism": "mechanismB",
+      "mechanism": "mechanismA",
       "nature": "lumped"
     },
     "4": {
       "name": "4 | 5",
       "source": 4,
       "sink": 5,
-      "token": "tokenB",
+      "token": "tokenA",
       "typed_tokens": [],
       "network": "System",
       "named_network": "A-System",
-      "mechanism": "mechanismB",
-      "nature": "lumped"
-    },
-    "5": {
-      "name": "5 | 3",
-      "source": 5,
-      "sink": 3,
-      "token": "tokenB",
-      "typed_tokens": [],
-      "network": "System",
-      "named_network": "A-System",
-      "mechanism": "mechanismB",
+      "mechanism": "mechansimB",
       "nature": "lumped"
     }
   },
@@ -257,8 +211,8 @@
     "0": {
       "nodes": {
         "1": {
-          "position_x": -290.0,
-          "position_y": -172.0,
+          "position_x": -297.0,
+          "position_y": -157.0,
           "root": {
             "position_x": 0,
             "position_y": 0
@@ -277,8 +231,8 @@
           }
         },
         "2": {
-          "position_x": -325.0,
-          "position_y": 95.0,
+          "position_x": -317.0,
+          "position_y": 76.0,
           "root": {
             "position_x": 0,
             "position_y": 0
@@ -297,8 +251,8 @@
           }
         },
         "3": {
-          "position_x": 365.0,
-          "position_y": -42.0,
+          "position_x": 242.0,
+          "position_y": -36.0,
           "root": {
             "position_x": 0,
             "position_y": 0
@@ -317,8 +271,8 @@
           }
         },
         "4": {
-          "position_x": -142.0,
-          "position_y": -45.0,
+          "position_x": -139.0,
+          "position_y": -44.0,
           "root": {
             "position_x": 0,
             "position_y": 0
@@ -337,7 +291,7 @@
           }
         },
         "5": {
-          "position_x": 172.0,
+          "position_x": 37.0,
           "position_y": -41.0,
           "root": {
             "position_x": 0,
@@ -359,29 +313,13 @@
       },
       "arcs": {
         "0": [],
-        "1": [
-          [
-            37.5,
-            -94.5
-          ]
-        ],
-        "2": [
-          [
-            229.5,
-            -100.5
-          ]
-        ],
+        "1": [],
+        "2": [],
         "3": [],
         "4": [
           [
-            9.5,
-            68.5
-          ]
-        ],
-        "5": [
-          [
-            259.5,
-            58.5
+            -52.5,
+            -104.5
           ]
         ]
       }
@@ -401,8 +339,7 @@
     "3": {
       "nodes": {},
       "arcs": {
-        "2": [],
-        "5": []
+        "2": []
       }
     },
     "4": {
@@ -419,8 +356,7 @@
       "arcs": {
         "1": [],
         "2": [],
-        "4": [],
-        "5": []
+        "4": []
       }
     }
   }

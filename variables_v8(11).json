@@ -14,7 +14,7 @@
       "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
     },
     "2": {
-      "aliases": "{'global_ID': ' V_2', 'python': 'value', 'cpp': 'value', 'matlab': 'value', 'latex': '{\\\\#}', 'internal_code': 'value'}",
+      "aliases": "{'global_ID': ' V_2', 'python': 'value', 'cpp': 'value', 'matlab': 'value', 'latex': 'value', 'internal_code': 'value'}",
       "doc": "numerical value",
       "equations": "{}",
       "index_structures": "[]",
@@ -26,7 +26,7 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "3": {
-      "aliases": "{'global_ID': ' V_3', 'python': 'to', 'cpp': 'to', 'matlab': 'to', 'latex': '{t^o}', 'internal_code': 'to'}",
+      "aliases": "{'global_ID': ' V_3', 'python': 'to', 'cpp': 'to', 'matlab': 'to', 'latex': 'to', 'internal_code': 'to'}",
       "doc": "starting time",
       "equations": "{1: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'starting time', 'network': 'root', 'incidence_list': ['1', '2']}}",
       "index_structures": "[1]",
@@ -38,7 +38,7 @@
       "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
     },
     "4": {
-      "aliases": "{'global_ID': ' V_4', 'python': 'te', 'cpp': 'te', 'matlab': 'te', 'latex': '{t^e}', 'internal_code': 'te'}",
+      "aliases": "{'global_ID': ' V_4', 'python': 'te', 'cpp': 'te', 'matlab': 'te', 'latex': 'te', 'internal_code': 'te'}",
       "doc": "end time",
       "equations": "{2: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'end time', 'network': 'root', 'incidence_list': ['1', '2']}}",
       "index_structures": "[1]",
@@ -52,7 +52,7 @@
     "5": {
       "aliases": "{'global_ID': ' V_5', 'python': 'x', 'cpp': 'x', 'matlab': 'x', 'latex': 'x', 'internal_code': 'x'}",
       "doc": "state - length",
-      "equations": "{13: {'rhs': ' O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_17', 'type': 'generic', 'doc': 'state - length', 'network': 'System', 'incidence_list': ['1', '16', '17', '3', '4']}}",
+      "equations": "{}",
       "index_structures": "[1]",
       "label": "x",
       "network": "System",
@@ -110,7 +110,7 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "11": {
-      "aliases": "{'global_ID': ' V_11', 'python': 'pi_a', 'cpp': 'pi_a', 'matlab': 'pi_a', 'latex': '{\\\\pi^a}', 'internal_code': 'pi_a'}",
+      "aliases": "{'global_ID': ' V_11', 'python': 'pi_a', 'cpp': 'pi_a', 'matlab': 'pi_a', 'latex': 'pi_a', 'internal_code': 'pi_a'}",
       "doc": "effort a",
       "equations": "{7: {'rhs': ' V_9 O_4 V_5', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['5', '9']}}",
       "index_structures": "[1]",
@@ -122,7 +122,7 @@
       "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
     },
     "12": {
-      "aliases": "{'global_ID': ' V_12', 'python': 'pi_b', 'cpp': 'pi_b', 'matlab': 'pi_b', 'latex': '{\\\\pi^b}', 'internal_code': 'pi_b'}",
+      "aliases": "{'global_ID': ' V_12', 'python': 'pi_b', 'cpp': 'pi_b', 'matlab': 'pi_b', 'latex': 'pi_b', 'internal_code': 'pi_b'}",
       "doc": "effort b",
       "equations": "{8: {'rhs': ' V_10 O_4 V_5', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['10', '5']}}",
       "index_structures": "[1]",
@@ -146,7 +146,7 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "14": {
-      "aliases": "{'global_ID': ' V_14', 'python': 'fx_a', 'cpp': 'fx_a', 'matlab': 'fx_a', 'latex': '{\\\\hat{x}^a}', 'internal_code': 'fx_a'}",
+      "aliases": "{'global_ID': ' V_14', 'python': 'fx_a', 'cpp': 'fx_a', 'matlab': 'fx_a', 'latex': 'fx_a', 'internal_code': 'fx_a'}",
       "doc": "flow of x mechanism a",
       "equations": "{9: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_7 O_4 V_13  O_5  I_1 O_5  V_11 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['11', '13', '13', '7']}}",
       "index_structures": "[1]",
@@ -158,7 +158,7 @@
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
     },
     "15": {
-      "aliases": "{'global_ID': ' V_15', 'python': 'fx_b', 'cpp': 'fx_b', 'matlab': 'fx_b', 'latex': '{\\\\hat{x}^b}', 'internal_code': 'fx_b'}",
+      "aliases": "{'global_ID': ' V_15', 'python': 'fx_b', 'cpp': 'fx_b', 'matlab': 'fx_b', 'latex': 'fx_b', 'internal_code': 'fx_b'}",
       "doc": "flow of x mechanism b",
       "equations": "{10: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_8 O_4 V_13  O_5  I_1 O_5  V_12 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['12', '13', '13', '8']}}",
       "index_structures": "[1]",
@@ -170,7 +170,7 @@
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
     },
     "16": {
-      "aliases": "{'global_ID': ' V_16', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
+      "aliases": "{'global_ID': ' V_16', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': 'dx', 'internal_code': 'dx'}",
       "doc": "differential state",
       "equations": "{11: {'rhs': ' V_14 O_0 V_15', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['14', '15']}}",
       "index_structures": "[1]",
@@ -180,18 +180,6 @@
       "tokens": "[]",
       "type": "state",
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
-    },
-    "17": {
-      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': '{x^o}', 'internal_code': 'xo'}",
-      "doc": "initial condition",
-      "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
-      "index_structures": "[1]",
-      "label": "xo",
-      "network": "System",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "state",
-      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
     }
   },
   "indices": {
@@ -401,7 +389,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 17,
-    "equation": 13
+    "variable": 16,
+    "equation": 11
   }
 }

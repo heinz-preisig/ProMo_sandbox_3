@@ -52,7 +52,7 @@
     "5": {
       "aliases": "{'global_ID': ' V_5', 'python': 'x', 'cpp': 'x', 'matlab': 'x', 'latex': 'x', 'internal_code': 'x'}",
       "doc": "state - length",
-      "equations": "{13: {'rhs': ' O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_17', 'type': 'generic', 'doc': 'state - length', 'network': 'System', 'incidence_list': ['1', '16', '17', '3', '4']}}",
+      "equations": "{}",
       "index_structures": "[1]",
       "label": "x",
       "network": "System",
@@ -180,18 +180,6 @@
       "tokens": "[]",
       "type": "state",
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
-    },
-    "17": {
-      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': '{x^o}', 'internal_code': 'xo'}",
-      "doc": "initial condition",
-      "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
-      "index_structures": "[1]",
-      "label": "xo",
-      "network": "System",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "state",
-      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
     }
   },
   "indices": {
@@ -401,7 +389,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 17,
-    "equation": 13
+    "variable": 16,
+    "equation": 11
   }
 }
