@@ -109,6 +109,14 @@
             "mechansimB": [
               "lumped"
             ]
+          },
+          "tokenB": {
+            "mechanismC": [
+              "lumped"
+            ],
+            "mechanismD": [
+              "lumped"
+            ]
           }
         },
         "node": {
@@ -125,7 +133,8 @@
         "token": {
           "tokenA": [
             "molecule"
-          ]
+          ],
+          "tokenB": []
         }
       },
       "type": "inter"

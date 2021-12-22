@@ -97,7 +97,7 @@
                 41,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -112,7 +112,7 @@
                 79,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -124,76 +124,12 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            },
-            "selected": {
-              "action": [],
-              "colour": [
-                252,
-                233,
-                79,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismC|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
                 52,
                 101,
                 164,
                 255
               ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            },
-            "selected": {
-              "action": [],
-              "colour": [
-                252,
-                233,
-                79,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismD|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
-                52,
-                101,
-                164,
-                255
-              ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -208,7 +144,7 @@
                 79,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -728,7 +664,7 @@
                 41,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -740,46 +676,12 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismC|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
                 52,
                 101,
                 164,
                 255
               ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismD|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
-                52,
-                101,
-                164,
-                255
-              ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1396,7 +1298,7 @@
                 41,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1411,7 +1313,7 @@
                 207,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1426,7 +1328,7 @@
                 79,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1438,106 +1340,12 @@
             "enabled": {
               "action": [],
               "colour": [
-                239,
-                41,
-                41,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            },
-            "open": {
-              "action": [],
-              "colour": [
-                114,
-                159,
-                207,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            },
-            "selected": {
-              "action": [],
-              "colour": [
-                252,
-                233,
-                79,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "dashed",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismC|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
                 52,
                 101,
                 164,
                 255
               ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            },
-            "open": {
-              "action": [],
-              "colour": [
-                114,
-                159,
-                207,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            },
-            "selected": {
-              "action": [],
-              "colour": [
-                252,
-                233,
-                79,
-                255
-              ],
-              "layer": "arc",
-              "movable": false,
-              "position_x": 0,
-              "position_y": 0,
-              "style": "solid",
-              "width": 2
-            }
-          },
-          "tokenB|mechanismD|lumped": {
-            "enabled": {
-              "action": [],
-              "colour": [
-                52,
-                101,
-                164,
-                255
-              ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1552,7 +1360,7 @@
                 207,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -1567,7 +1375,7 @@
                 79,
                 255
               ],
-              "layer": "arc",
+              "layer": "mainPanel",
               "movable": false,
               "position_x": 0,
               "position_y": 0,
@@ -2118,9 +1926,9 @@
     },
     "Properties": {
       "colour": [
-        196,
-        160,
-        0,
+        252,
+        233,
+        79,
         255
       ]
     },
@@ -2211,14 +2019,6 @@
         239,
         41,
         41,
-        255
-      ]
-    },
-    "tokenB": {
-      "colour": [
-        52,
-        101,
-        164,
         255
       ]
     },

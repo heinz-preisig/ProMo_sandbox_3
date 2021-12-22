@@ -1,0 +1,445 @@
+{
+  "ID_tree": {
+    "0": {
+      "ancestors": [],
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "1": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "2": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "3": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "4": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "5": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    }
+  },
+  "named_networks": {
+    "network__named_network": {
+      "Control": [
+        "A-Control"
+      ],
+      "Properties": [
+        "A-Properties"
+      ],
+      "System": [
+        "A-System"
+      ]
+    },
+    "A-Control": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "A-Properties": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    },
+    "A-System": {
+      "colour": [
+        255,
+        255,
+        255,
+        100
+      ]
+    }
+  },
+  "nodes": {
+    "0": {
+      "name": 0,
+      "network": null,
+      "named_network": null,
+      "class": "node_composite",
+      "type": "node_composite"
+    },
+    "1": {
+      "name": "default",
+      "network": "System",
+      "named_network": "A-System",
+      "class": "node_simple",
+      "type": "constant|lumped",
+      "tokens": {
+        "tokenA": [],
+        "tokenB": []
+      },
+      "injected_typed_tokens": {},
+      "tokenA": []
+    },
+    "2": {
+      "name": "default",
+      "network": "System",
+      "named_network": "A-System",
+      "class": "node_simple",
+      "type": "constant|lumped",
+      "tokens": {
+        "tokenA": []
+      },
+      "injected_typed_tokens": {},
+      "tokenA": []
+    },
+    "3": {
+      "name": "default",
+      "network": "System",
+      "named_network": "A-System",
+      "class": "node_simple",
+      "type": "constant|lumped",
+      "tokens": {
+        "tokenA": [],
+        "tokenB": []
+      },
+      "injected_typed_tokens": {},
+      "tokenA": [],
+      "tokenB": []
+    },
+    "4": {
+      "name": "default",
+      "network": "System",
+      "named_network": "A-System",
+      "class": "node_simple",
+      "type": "dynamic|lumped",
+      "tokens": {
+        "tokenA": [],
+        "tokenB": []
+      },
+      "conversions": {},
+      "injected_typed_tokens": {},
+      "tokenA": []
+    },
+    "5": {
+      "name": "default",
+      "network": "System",
+      "named_network": "A-System",
+      "class": "node_simple",
+      "type": "dynamic|lumped",
+      "tokens": {
+        "tokenA": [],
+        "tokenB": []
+      },
+      "conversions": {},
+      "injected_typed_tokens": {},
+      "tokenA": [],
+      "tokenB": []
+    }
+  },
+  "domains": {},
+  "arcs": {
+    "0": {
+      "name": "1 | 4",
+      "source": 1,
+      "sink": 4,
+      "token": "tokenA",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismA",
+      "nature": "lumped"
+    },
+    "1": {
+      "name": "4 | 5",
+      "source": 4,
+      "sink": 5,
+      "token": "tokenA",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismA",
+      "nature": "lumped"
+    },
+    "2": {
+      "name": "5 | 3",
+      "source": 5,
+      "sink": 3,
+      "token": "tokenA",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismA",
+      "nature": "lumped"
+    },
+    "3": {
+      "name": "2 | 4",
+      "source": 2,
+      "sink": 4,
+      "token": "tokenA",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismA",
+      "nature": "lumped"
+    },
+    "4": {
+      "name": "4 | 5",
+      "source": 4,
+      "sink": 5,
+      "token": "tokenA",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechansimB",
+      "nature": "lumped"
+    },
+    "5": {
+      "name": "5 | 3",
+      "source": 5,
+      "sink": 3,
+      "token": "tokenB",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismD",
+      "nature": "lumped"
+    },
+    "6": {
+      "name": "1 | 4",
+      "source": 1,
+      "sink": 4,
+      "token": "tokenB",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismC",
+      "nature": "lumped"
+    },
+    "7": {
+      "name": "4 | 5",
+      "source": 4,
+      "sink": 5,
+      "token": "tokenB",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismC",
+      "nature": "lumped"
+    },
+    "8": {
+      "name": "5 | 3",
+      "source": 5,
+      "sink": 3,
+      "token": "tokenB",
+      "typed_tokens": [],
+      "network": "System",
+      "named_network": "A-System",
+      "mechanism": "mechanismC",
+      "nature": "lumped"
+    }
+  },
+  "scenes": {
+    "0": {
+      "nodes": {
+        "1": {
+          "position_x": -332.0,
+          "position_y": -149.0,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -10,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -15,
+            "position_y": 0
+          }
+        },
+        "2": {
+          "position_x": -328.5,
+          "position_y": 11.5,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -10,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -15,
+            "position_y": 0
+          }
+        },
+        "3": {
+          "position_x": 205.5,
+          "position_y": -69.5,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -10,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -15,
+            "position_y": 0
+          }
+        },
+        "4": {
+          "position_x": -157.0,
+          "position_y": -63.0,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -10,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -15,
+            "position_y": 0
+          }
+        },
+        "5": {
+          "position_x": 11.0,
+          "position_y": -65.0,
+          "root": {
+            "position_x": 0,
+            "position_y": 0
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          },
+          "network": {
+            "position_x": -10,
+            "position_y": 0
+          },
+          "named_network": {
+            "position_x": -15,
+            "position_y": 0
+          }
+        }
+      },
+      "arcs": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          [
+            -66.5,
+            -143.5
+          ]
+        ],
+        "5": [
+          [
+            98.5,
+            -136.5
+          ]
+        ],
+        "6": [
+          [
+            -209.5,
+            -155.5
+          ]
+        ],
+        "7": [
+          [
+            -63.5,
+            23.5
+          ]
+        ],
+        "8": [
+          [
+            103.5,
+            17.5
+          ]
+        ]
+      }
+    },
+    "1": {
+      "nodes": {},
+      "arcs": {
+        "0": [],
+        "6": []
+      }
+    },
+    "2": {
+      "nodes": {},
+      "arcs": {
+        "3": []
+      }
+    },
+    "3": {
+      "nodes": {},
+      "arcs": {
+        "2": [],
+        "5": [],
+        "8": []
+      }
+    },
+    "4": {
+      "nodes": {},
+      "arcs": {
+        "0": [],
+        "1": [],
+        "3": [],
+        "4": [],
+        "6": [],
+        "7": []
+      }
+    },
+    "5": {
+      "nodes": {},
+      "arcs": {
+        "1": [],
+        "2": [],
+        "4": [],
+        "5": [],
+        "7": [],
+        "8": []
+      }
+    }
+  }
+}
