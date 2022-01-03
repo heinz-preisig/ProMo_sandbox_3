@@ -11,3 +11,9 @@
 11 :: dx =  fx_a + fx_b
 12 :: xo =  Instantiate ( x , value )
 13 :: x =  Integral ( dx :: t in [ to , te ] ) + xo
+14 :: pi_a =  Instantiate ( pi_a , value )
+15 :: pi_b =  Instantiate ( pi_b , value )
+16 :: null =  Instantiate ( value , value )
+17 :: one =  Instantiate ( value , value )
+18 :: dx =  Instantiate ( dx , null )
+19 :: pi_stack =  Stack ( pi_a , pi_b )

@@ -45,7 +45,7 @@ from Common.ontology_container import OntologyContainer
 
 from owlready2 import *
 
-ontology = OntologyContainer("ProMo_sandbox") #'flash_03')
+ontology = OntologyContainer("ProMo_sandbox2") #'flash_03')
 
 
 variables = ontology.variables
@@ -428,6 +428,72 @@ V_17.temperature = [ units[4] ]
 V_17.current = [ units[5] ]
 V_17.light = [ units[6] ]
 
+# 18
+label = variables[18]["label"]
+network = variables[18]["network"]
+variable_type = variables[18]["type"]
+label = variables[18]["label"]
+doc = variables[18]["doc"]
+onto_ID = "V_18"
+V_18 = onto.ProMoVar( onto_ID )
+V_18.label = label
+V_18.network = network
+V_18.variable_type = variable_type
+V_18.comment = doc
+
+units = variables[18]["units"].asList()
+V_18.time = [ units[0] ]
+V_18.length = [ units[1] ]
+V_18.amount = [ units[2] ]
+V_18.mass = [ units[3] ]
+V_18.temperature = [ units[4] ]
+V_18.current = [ units[5] ]
+V_18.light = [ units[6] ]
+
+# 19
+label = variables[19]["label"]
+network = variables[19]["network"]
+variable_type = variables[19]["type"]
+label = variables[19]["label"]
+doc = variables[19]["doc"]
+onto_ID = "V_19"
+V_19 = onto.ProMoVar( onto_ID )
+V_19.label = label
+V_19.network = network
+V_19.variable_type = variable_type
+V_19.comment = doc
+
+units = variables[19]["units"].asList()
+V_19.time = [ units[0] ]
+V_19.length = [ units[1] ]
+V_19.amount = [ units[2] ]
+V_19.mass = [ units[3] ]
+V_19.temperature = [ units[4] ]
+V_19.current = [ units[5] ]
+V_19.light = [ units[6] ]
+
+# 20
+label = variables[20]["label"]
+network = variables[20]["network"]
+variable_type = variables[20]["type"]
+label = variables[20]["label"]
+doc = variables[20]["doc"]
+onto_ID = "V_20"
+V_20 = onto.ProMoVar( onto_ID )
+V_20.label = label
+V_20.network = network
+V_20.variable_type = variable_type
+V_20.comment = doc
+
+units = variables[20]["units"].asList()
+V_20.time = [ units[0] ]
+V_20.length = [ units[1] ]
+V_20.amount = [ units[2] ]
+V_20.mass = [ units[3] ]
+V_20.temperature = [ units[4] ]
+V_20.current = [ units[5] ]
+V_20.light = [ units[6] ]
+
 # functions assignments
 
 #1
@@ -519,6 +585,13 @@ F_ID = "F_7"
 F_7 = onto.function( F_ID )
 F_7.is_function_of = incidence_list
 V_11.has_function.append( F_7 )
+incidence_list = []
+incidence_list.append( V_11 )
+incidence_list.append( V_2 )
+F_ID = "F_14"
+F_14 = onto.function( F_ID )
+F_14.is_function_of = incidence_list
+V_11.has_function.append( F_14 )
 #12
 
 V_12.has_function = []
@@ -529,6 +602,13 @@ F_ID = "F_8"
 F_8 = onto.function( F_ID )
 F_8.is_function_of = incidence_list
 V_12.has_function.append( F_8 )
+incidence_list = []
+incidence_list.append( V_12 )
+incidence_list.append( V_2 )
+F_ID = "F_15"
+F_15 = onto.function( F_ID )
+F_15.is_function_of = incidence_list
+V_12.has_function.append( F_15 )
 #13
 
 V_13.has_function = []
@@ -566,6 +646,13 @@ F_ID = "F_11"
 F_11 = onto.function( F_ID )
 F_11.is_function_of = incidence_list
 V_16.has_function.append( F_11 )
+incidence_list = []
+incidence_list.append( V_16 )
+incidence_list.append( V_18 )
+F_ID = "F_18"
+F_18 = onto.function( F_ID )
+F_18.is_function_of = incidence_list
+V_16.has_function.append( F_18 )
 #17
 
 V_17.has_function = []
@@ -576,5 +663,35 @@ F_ID = "F_12"
 F_12 = onto.function( F_ID )
 F_12.is_function_of = incidence_list
 V_17.has_function.append( F_12 )
+#18
+
+V_18.has_function = []
+incidence_list = []
+incidence_list.append( V_2 )
+incidence_list.append( V_2 )
+F_ID = "F_16"
+F_16 = onto.function( F_ID )
+F_16.is_function_of = incidence_list
+V_18.has_function.append( F_16 )
+#19
+
+V_19.has_function = []
+incidence_list = []
+incidence_list.append( V_2 )
+incidence_list.append( V_2 )
+F_ID = "F_17"
+F_17 = onto.function( F_ID )
+F_17.is_function_of = incidence_list
+V_19.has_function.append( F_17 )
+#20
+
+V_20.has_function = []
+incidence_list = []
+incidence_list.append( V_11 )
+incidence_list.append( V_12 )
+F_ID = "F_19"
+F_19 = onto.function( F_ID )
+F_19.is_function_of = incidence_list
+V_20.has_function.append( F_19 )
 
 onto.save("variables.owl")

@@ -76,5 +76,41 @@
     "lhs": "{x}{_{N}}",
     "network": "System",
     "rhs": "\\int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{x^o}}{_{N}}"
+  },
+  "14": {
+    "variable_ID": 11,
+    "lhs": "{{\\pi^a}}{_{N}}",
+    "network": "System",
+    "rhs": "Set({{\\pi^a}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "15": {
+    "variable_ID": 12,
+    "lhs": "{{\\pi^b}}{_{N}}",
+    "network": "System",
+    "rhs": "Set({{\\pi^b}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "16": {
+    "variable_ID": 18,
+    "lhs": "{0}{_{}}",
+    "network": "root",
+    "rhs": "Set({{\\#}}{_{}}, {{\\#}}{_{}})"
+  },
+  "17": {
+    "variable_ID": 19,
+    "lhs": "{1}{_{}}",
+    "network": "root",
+    "rhs": "Set({{\\#}}{_{}}, {{\\#}}{_{}})"
+  },
+  "18": {
+    "variable_ID": 16,
+    "lhs": "{{\\dot{x}}}{_{N}}",
+    "network": "System",
+    "rhs": "Set({{\\dot{x}}}{_{N}}, {0}{_{}})"
+  },
+  "19": {
+    "variable_ID": 20,
+    "lhs": "{{\\V{\\pi}}}{_{N}}",
+    "network": "System",
+    "rhs": "Stack\\left( {{\\pi^a}}{_{N}},{{\\pi^b}}{_{N}} \\right)"
   }
 }

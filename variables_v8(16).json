@@ -194,7 +194,7 @@
       "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
     },
     "18": {
-      "aliases": "{'global_ID': ' V_18', 'python': 'null', 'cpp': 'null', 'matlab': 'null', 'latex': '0', 'internal_code': 'null'}",
+      "aliases": "{'global_ID': ' V_18', 'python': 'null', 'cpp': 'null', 'matlab': 'null', 'latex': 'null', 'internal_code': 'null'}",
       "doc": "numerical value 0",
       "equations": "{16: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 0', 'network': 'root', 'incidence_list': ['2', '2']}}",
       "index_structures": "[]",
@@ -206,7 +206,7 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "19": {
-      "aliases": "{'global_ID': ' V_19', 'python': 'one', 'cpp': 'one', 'matlab': 'one', 'latex': '1', 'internal_code': 'one'}",
+      "aliases": "{'global_ID': ' V_19', 'python': 'one', 'cpp': 'one', 'matlab': 'one', 'latex': 'one', 'internal_code': 'one'}",
       "doc": "numerical value 1",
       "equations": "{17: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 1', 'network': 'root', 'incidence_list': ['2', '2']}}",
       "index_structures": "[]",
@@ -218,7 +218,7 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "20": {
-      "aliases": "{'global_ID': ' V_20', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': '{\\\\V{\\\\pi}}', 'internal_code': 'pi_stack'}",
+      "aliases": "{'global_ID': ' V_20', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': '{\\\\V{pi}}', 'internal_code': 'pi_stack'}",
       "doc": "the stack of intensive variables",
       "equations": "{19: {'rhs': ' F_20 D_0 V_11 D_7 V_12 D_1', 'type': 'generic', 'doc': 'the stack of intensive variables', 'network': 'System', 'incidence_list': ['11', '12']}}",
       "index_structures": "[1]",

@@ -76,5 +76,41 @@
     "lhs": "x",
     "network": "System",
     "rhs": "np.add(Integral(dx,t,to,te), xo)"
+  },
+  "14": {
+    "variable_ID": 11,
+    "lhs": "pi_a",
+    "network": "System",
+    "rhs": "np.ones(np.shape(pi_a)), value"
+  },
+  "15": {
+    "variable_ID": 12,
+    "lhs": "pi_b",
+    "network": "System",
+    "rhs": "np.ones(np.shape(pi_b)), value"
+  },
+  "16": {
+    "variable_ID": 18,
+    "lhs": "null",
+    "network": "root",
+    "rhs": "np.ones(np.shape(value)), value"
+  },
+  "17": {
+    "variable_ID": 19,
+    "lhs": "one",
+    "network": "root",
+    "rhs": "np.ones(np.shape(value)), value"
+  },
+  "18": {
+    "variable_ID": 16,
+    "lhs": "dx",
+    "network": "System",
+    "rhs": "np.ones(np.shape(dx)), null"
+  },
+  "19": {
+    "variable_ID": 20,
+    "lhs": "pi_stack",
+    "network": "System",
+    "rhs": "Stack(pi_a,pi_b)"
   }
 }

@@ -63,5 +63,35 @@
     "lhs": "x",
     "network": "System",
     "rhs": " Integral ( dx :: t in [ to , te ] ) + xo"
+  },
+  "14": {
+    "lhs": "pi_a",
+    "network": "System",
+    "rhs": " Instantiate ( pi_a , value )"
+  },
+  "15": {
+    "lhs": "pi_b",
+    "network": "System",
+    "rhs": " Instantiate ( pi_b , value )"
+  },
+  "16": {
+    "lhs": "null",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "17": {
+    "lhs": "one",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "18": {
+    "lhs": "dx",
+    "network": "System",
+    "rhs": " Instantiate ( dx , null )"
+  },
+  "19": {
+    "lhs": "pi_stack",
+    "network": "System",
+    "rhs": " Stack ( pi_a , pi_b )"
   }
 }

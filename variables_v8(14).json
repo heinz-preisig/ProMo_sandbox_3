@@ -112,7 +112,7 @@
     "11": {
       "aliases": "{'global_ID': ' V_11', 'python': 'pi_a', 'cpp': 'pi_a', 'matlab': 'pi_a', 'latex': '{\\\\pi^a}', 'internal_code': 'pi_a'}",
       "doc": "effort a",
-      "equations": "{7: {'rhs': ' V_9 O_4 V_5', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['5', '9']}, 14: {'rhs': ' O_11 D_0 V_11 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['11', '2']}}",
+      "equations": "{7: {'rhs': ' V_9 O_4 V_5', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['5', '9']}}",
       "index_structures": "[1]",
       "label": "pi_a",
       "network": "System",
@@ -124,7 +124,7 @@
     "12": {
       "aliases": "{'global_ID': ' V_12', 'python': 'pi_b', 'cpp': 'pi_b', 'matlab': 'pi_b', 'latex': '{\\\\pi^b}', 'internal_code': 'pi_b'}",
       "doc": "effort b",
-      "equations": "{8: {'rhs': ' V_10 O_4 V_5', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['10', '5']}, 15: {'rhs': ' O_11 D_0 V_12 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['12', '2']}}",
+      "equations": "{8: {'rhs': ' V_10 O_4 V_5', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['10', '5']}}",
       "index_structures": "[1]",
       "label": "pi_b",
       "network": "System",
@@ -172,7 +172,7 @@
     "16": {
       "aliases": "{'global_ID': ' V_16', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
       "doc": "differential state",
-      "equations": "{11: {'rhs': ' V_14 O_0 V_15', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['14', '15']}, 18: {'rhs': ' O_11 D_0 V_16 D_7 V_18 D_1', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['16', '18']}}",
+      "equations": "{11: {'rhs': ' V_14 O_0 V_15', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['14', '15']}}",
       "index_structures": "[1]",
       "label": "dx",
       "network": "System",
@@ -187,42 +187,6 @@
       "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
       "index_structures": "[1]",
       "label": "xo",
-      "network": "System",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "state",
-      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
-    },
-    "18": {
-      "aliases": "{'global_ID': ' V_18', 'python': 'null', 'cpp': 'null', 'matlab': 'null', 'latex': '0', 'internal_code': 'null'}",
-      "doc": "numerical value 0",
-      "equations": "{16: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 0', 'network': 'root', 'incidence_list': ['2', '2']}}",
-      "index_structures": "[]",
-      "label": "null",
-      "network": "root",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "constant",
-      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
-    },
-    "19": {
-      "aliases": "{'global_ID': ' V_19', 'python': 'one', 'cpp': 'one', 'matlab': 'one', 'latex': '1', 'internal_code': 'one'}",
-      "doc": "numerical value 1",
-      "equations": "{17: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 1', 'network': 'root', 'incidence_list': ['2', '2']}}",
-      "index_structures": "[]",
-      "label": "one",
-      "network": "root",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "constant",
-      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
-    },
-    "20": {
-      "aliases": "{'global_ID': ' V_20', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': '{\\\\V{\\\\pi}}', 'internal_code': 'pi_stack'}",
-      "doc": "the stack of intensive variables",
-      "equations": "{19: {'rhs': ' F_20 D_0 V_11 D_7 V_12 D_1', 'type': 'generic', 'doc': 'the stack of intensive variables', 'network': 'System', 'incidence_list': ['11', '12']}}",
-      "index_structures": "[1]",
-      "label": "pi_stack",
       "network": "System",
       "port_variable": "False",
       "tokens": "[]",
@@ -437,7 +401,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 20,
-    "equation": 19
+    "variable": 17,
+    "equation": 13
   }
 }

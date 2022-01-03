@@ -76,5 +76,41 @@
     "lhs": " V_5",
     "network": "System",
     "rhs": " O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_17"
+  },
+  "14": {
+    "variable_ID": 11,
+    "lhs": " V_11",
+    "network": "System",
+    "rhs": " O_11 D_0 V_11 D_7 V_2 D_1"
+  },
+  "15": {
+    "variable_ID": 12,
+    "lhs": " V_12",
+    "network": "System",
+    "rhs": " O_11 D_0 V_12 D_7 V_2 D_1"
+  },
+  "16": {
+    "variable_ID": 18,
+    "lhs": " V_18",
+    "network": "root",
+    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
+  },
+  "17": {
+    "variable_ID": 19,
+    "lhs": " V_19",
+    "network": "root",
+    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
+  },
+  "18": {
+    "variable_ID": 16,
+    "lhs": " V_16",
+    "network": "System",
+    "rhs": " O_11 D_0 V_16 D_7 V_18 D_1"
+  },
+  "19": {
+    "variable_ID": 20,
+    "lhs": " V_20",
+    "network": "System",
+    "rhs": " F_20 D_0 V_11 D_7 V_12 D_1"
   }
 }
