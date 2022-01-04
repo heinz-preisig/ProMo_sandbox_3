@@ -112,5 +112,17 @@
     "lhs": "pi_stack",
     "network": "System",
     "rhs": "Stack(pi_a,pi_b)"
+  },
+  "20": {
+    "variable_ID": 14,
+    "lhs": "fx_a",
+    "network": "System",
+    "rhs": "np.ones(np.shape(fx_a)), value"
+  },
+  "21": {
+    "variable_ID": 15,
+    "lhs": "fx_b",
+    "network": "System",
+    "rhs": "np.ones(np.shape(fx_b)), value"
   }
 }

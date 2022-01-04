@@ -112,5 +112,17 @@
     "lhs": "{{\\V{\\pi}}}{_{N}}",
     "network": "System",
     "rhs": "Stack\\left( {{\\pi^a}}{_{N}},{{\\pi^b}}{_{N}} \\right)"
+  },
+  "20": {
+    "variable_ID": 14,
+    "lhs": "{{\\hat{x}^a}}{_{N}}",
+    "network": "System",
+    "rhs": "Set({{\\hat{x}^a}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "21": {
+    "variable_ID": 15,
+    "lhs": "{{\\hat{x}^b}}{_{N}}",
+    "network": "System",
+    "rhs": "Set({{\\hat{x}^b}}{_{N}}, {{\\#}}{_{}})"
   }
 }

@@ -148,25 +148,25 @@
     "14": {
       "aliases": "{'global_ID': ' V_14', 'python': 'fx_a', 'cpp': 'fx_a', 'matlab': 'fx_a', 'latex': '{\\\\hat{x}^a}', 'internal_code': 'fx_a'}",
       "doc": "flow of x mechanism a",
-      "equations": "{9: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_7 O_4 V_13  O_5  I_1 O_5  V_11 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['11', '13', '13', '7']}, 20: {'rhs': ' O_11 D_0 V_14 D_7 V_2 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['14', '2']}}",
+      "equations": "{9: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_7 O_4 V_13  O_5  I_1 O_5  V_11 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['11', '13', '13', '7']}}",
       "index_structures": "[1]",
       "label": "fx_a",
       "network": "System",
       "port_variable": "False",
       "tokens": "[]",
-      "type": "transport",
+      "type": "state",
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
     },
     "15": {
       "aliases": "{'global_ID': ' V_15', 'python': 'fx_b', 'cpp': 'fx_b', 'matlab': 'fx_b', 'latex': '{\\\\hat{x}^b}', 'internal_code': 'fx_b'}",
       "doc": "flow of x mechanism b",
-      "equations": "{10: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_8 O_4 V_13  O_5  I_1 O_5  V_12 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['12', '13', '13', '8']}, 21: {'rhs': ' O_11 D_0 V_15 D_7 V_2 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['15', '2']}}",
+      "equations": "{10: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_8 O_4 V_13  O_5  I_1 O_5  V_12 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['12', '13', '13', '8']}}",
       "index_structures": "[1]",
       "label": "fx_b",
       "network": "System",
       "port_variable": "False",
       "tokens": "[]",
-      "type": "transport",
+      "type": "state",
       "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
     },
     "16": {
@@ -438,6 +438,6 @@
   },
   "Ontology_global_IDs": {
     "variable": 20,
-    "equation": 21
+    "equation": 19
   }
 }

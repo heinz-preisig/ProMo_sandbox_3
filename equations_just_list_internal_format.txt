@@ -17,3 +17,5 @@
 17 :: one =  Instantiate ( value , value )
 18 :: dx =  Instantiate ( dx , null )
 19 :: pi_stack =  Stack ( pi_a , pi_b )
+20 :: fx_a =  Instantiate ( fx_a , value )
+21 :: fx_b =  Instantiate ( fx_b , value )

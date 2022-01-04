@@ -274,7 +274,8 @@
             0
           ],
           "children": [
-            29
+            29,
+            32
           ]
         },
         "24": {
@@ -289,7 +290,8 @@
             0
           ],
           "children": [
-            32
+            33,
+            35
           ]
         },
         "25": {
@@ -388,12 +390,12 @@
             0
           ],
           "children": [
-            34
+            36
           ]
         },
         "32": {
           "ancestors": [
-            24,
+            23,
             22,
             14,
             12,
@@ -403,13 +405,10 @@
             1,
             0
           ],
-          "children": [
-            33
-          ]
+          "children": []
         },
         "33": {
           "ancestors": [
-            32,
             24,
             22,
             14,
@@ -421,10 +420,41 @@
             0
           ],
           "children": [
-            35
+            34
           ]
         },
         "34": {
+          "ancestors": [
+            33,
+            24,
+            22,
+            14,
+            12,
+            7,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            37
+          ]
+        },
+        "35": {
+          "ancestors": [
+            24,
+            22,
+            14,
+            12,
+            7,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "36": {
           "ancestors": [
             31,
             29,
@@ -440,10 +470,10 @@
           ],
           "children": []
         },
-        "35": {
+        "37": {
           "ancestors": [
+            34,
             33,
-            32,
             24,
             22,
             14,
@@ -490,10 +520,12 @@
         "29": "equation_9",
         "30": "variable_13",
         "31": "variable_7",
-        "32": "equation_10",
-        "33": "variable_8",
-        "34": "equation_3",
-        "35": "equation_4"
+        "32": "equation_20",
+        "33": "equation_10",
+        "34": "variable_8",
+        "35": "equation_21",
+        "36": "equation_3",
+        "37": "equation_4"
       },
       "IDs": {
         "variable_20": 0,
@@ -528,10 +560,12 @@
         "equation_9": 29,
         "variable_13": 30,
         "variable_7": 31,
-        "equation_10": 32,
-        "variable_8": 33,
-        "equation_3": 34,
-        "equation_4": 35
+        "equation_20": 32,
+        "equation_10": 33,
+        "variable_8": 34,
+        "equation_21": 35,
+        "equation_3": 36,
+        "equation_4": 37
       },
       "root_variable": 20,
       "blocked": [],
@@ -545,559 +579,13 @@
         10,
         11,
         12,
+        14,
+        15,
         17,
         18
       ]
     },
-    "System.node.constant|lumped|tokenB.base": {
-      "tree": {
-        "0": {
-          "ancestors": [],
-          "children": [
-            1
-          ]
-        },
-        "1": {
-          "ancestors": [
-            0
-          ],
-          "children": [
-            2,
-            3
-          ]
-        },
-        "2": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": [
-            4,
-            6
-          ]
-        },
-        "3": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": [
-            9,
-            11
-          ]
-        },
-        "4": {
-          "ancestors": [
-            2,
-            1,
-            0
-          ],
-          "children": [
-            5
-          ]
-        },
-        "5": {
-          "ancestors": [
-            4,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "6": {
-          "ancestors": [
-            2,
-            1,
-            0
-          ],
-          "children": [
-            7,
-            8
-          ]
-        },
-        "7": {
-          "ancestors": [
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            12
-          ]
-        },
-        "8": {
-          "ancestors": [
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            18
-          ]
-        },
-        "9": {
-          "ancestors": [
-            3,
-            1,
-            0
-          ],
-          "children": [
-            10
-          ]
-        },
-        "10": {
-          "ancestors": [
-            9,
-            3,
-            1,
-            0
-          ],
-          "children": [
-            19
-          ]
-        },
-        "11": {
-          "ancestors": [
-            3,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "12": {
-          "ancestors": [
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            13,
-            14,
-            15,
-            16,
-            17
-          ]
-        },
-        "13": {
-          "ancestors": [
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "14": {
-          "ancestors": [
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            20,
-            22
-          ]
-        },
-        "15": {
-          "ancestors": [
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            25
-          ]
-        },
-        "16": {
-          "ancestors": [
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            26
-          ]
-        },
-        "17": {
-          "ancestors": [
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            27
-          ]
-        },
-        "18": {
-          "ancestors": [
-            8,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "19": {
-          "ancestors": [
-            10,
-            9,
-            3,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "20": {
-          "ancestors": [
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            21
-          ]
-        },
-        "21": {
-          "ancestors": [
-            20,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            28
-          ]
-        },
-        "22": {
-          "ancestors": [
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            23,
-            24
-          ]
-        },
-        "23": {
-          "ancestors": [
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            29
-          ]
-        },
-        "24": {
-          "ancestors": [
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            32
-          ]
-        },
-        "25": {
-          "ancestors": [
-            15,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "26": {
-          "ancestors": [
-            16,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "27": {
-          "ancestors": [
-            17,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "28": {
-          "ancestors": [
-            21,
-            20,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "29": {
-          "ancestors": [
-            23,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            30,
-            31
-          ]
-        },
-        "30": {
-          "ancestors": [
-            29,
-            23,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "31": {
-          "ancestors": [
-            29,
-            23,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            34
-          ]
-        },
-        "32": {
-          "ancestors": [
-            24,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            33
-          ]
-        },
-        "33": {
-          "ancestors": [
-            32,
-            24,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": [
-            35
-          ]
-        },
-        "34": {
-          "ancestors": [
-            31,
-            29,
-            23,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "35": {
-          "ancestors": [
-            33,
-            32,
-            24,
-            22,
-            14,
-            12,
-            7,
-            6,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        }
-      },
-      "nodes": {
-        "0": "variable_20",
-        "1": "equation_19",
-        "2": "variable_11",
-        "3": "variable_12",
-        "4": "equation_14",
-        "5": "variable_2",
-        "6": "equation_7",
-        "7": "variable_5",
-        "8": "variable_9",
-        "9": "equation_8",
-        "10": "variable_10",
-        "11": "equation_15",
-        "12": "equation_13",
-        "13": "variable_1",
-        "14": "variable_16",
-        "15": "variable_17",
-        "16": "variable_3",
-        "17": "variable_4",
-        "18": "equation_5",
-        "19": "equation_6",
-        "20": "equation_18",
-        "21": "variable_18",
-        "22": "equation_11",
-        "23": "variable_14",
-        "24": "variable_15",
-        "25": "equation_12",
-        "26": "equation_1",
-        "27": "equation_2",
-        "28": "equation_16",
-        "29": "equation_9",
-        "30": "variable_13",
-        "31": "variable_7",
-        "32": "equation_10",
-        "33": "variable_8",
-        "34": "equation_3",
-        "35": "equation_4"
-      },
-      "IDs": {
-        "variable_20": 0,
-        "equation_19": 1,
-        "variable_11": 2,
-        "variable_12": 3,
-        "equation_14": 4,
-        "variable_2": 5,
-        "equation_7": 6,
-        "variable_5": 7,
-        "variable_9": 8,
-        "equation_8": 9,
-        "variable_10": 10,
-        "equation_15": 11,
-        "equation_13": 12,
-        "variable_1": 13,
-        "variable_16": 14,
-        "variable_17": 15,
-        "variable_3": 16,
-        "variable_4": 17,
-        "equation_5": 18,
-        "equation_6": 19,
-        "equation_18": 20,
-        "variable_18": 21,
-        "equation_11": 22,
-        "variable_14": 23,
-        "variable_15": 24,
-        "equation_12": 25,
-        "equation_1": 26,
-        "equation_2": 27,
-        "equation_16": 28,
-        "equation_9": 29,
-        "variable_13": 30,
-        "variable_7": 31,
-        "equation_10": 32,
-        "variable_8": 33,
-        "equation_3": 34,
-        "equation_4": 35
-      },
-      "root_variable": 20,
-      "blocked": [],
-      "buddies": [],
-      "to_be_initialised": [
-        3,
-        4,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        17,
-        18
-      ]
-    },
+    "System.node.constant|lumped|tokenB.base": null,
     "System.node.constant|lumped|tokenA_tokenB.base": {
       "tree": {
         "0": {
@@ -1372,7 +860,8 @@
             0
           ],
           "children": [
-            29
+            29,
+            32
           ]
         },
         "24": {
@@ -1387,7 +876,8 @@
             0
           ],
           "children": [
-            32
+            33,
+            35
           ]
         },
         "25": {
@@ -1486,12 +976,12 @@
             0
           ],
           "children": [
-            34
+            36
           ]
         },
         "32": {
           "ancestors": [
-            24,
+            23,
             22,
             14,
             12,
@@ -1501,13 +991,10 @@
             1,
             0
           ],
-          "children": [
-            33
-          ]
+          "children": []
         },
         "33": {
           "ancestors": [
-            32,
             24,
             22,
             14,
@@ -1519,10 +1006,41 @@
             0
           ],
           "children": [
-            35
+            34
           ]
         },
         "34": {
+          "ancestors": [
+            33,
+            24,
+            22,
+            14,
+            12,
+            7,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            37
+          ]
+        },
+        "35": {
+          "ancestors": [
+            24,
+            22,
+            14,
+            12,
+            7,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "36": {
           "ancestors": [
             31,
             29,
@@ -1538,10 +1056,10 @@
           ],
           "children": []
         },
-        "35": {
+        "37": {
           "ancestors": [
+            34,
             33,
-            32,
             24,
             22,
             14,
@@ -1588,10 +1106,12 @@
         "29": "equation_9",
         "30": "variable_13",
         "31": "variable_7",
-        "32": "equation_10",
-        "33": "variable_8",
-        "34": "equation_3",
-        "35": "equation_4"
+        "32": "equation_20",
+        "33": "equation_10",
+        "34": "variable_8",
+        "35": "equation_21",
+        "36": "equation_3",
+        "37": "equation_4"
       },
       "IDs": {
         "variable_20": 0,
@@ -1626,10 +1146,12 @@
         "equation_9": 29,
         "variable_13": 30,
         "variable_7": 31,
-        "equation_10": 32,
-        "variable_8": 33,
-        "equation_3": 34,
-        "equation_4": 35
+        "equation_20": 32,
+        "equation_10": 33,
+        "variable_8": 34,
+        "equation_21": 35,
+        "equation_3": 36,
+        "equation_4": 37
       },
       "root_variable": 20,
       "blocked": [],
@@ -1643,6 +1165,8 @@
         10,
         11,
         12,
+        14,
+        15,
         17,
         18
       ]
@@ -1737,6 +1261,9 @@
         7,
         8,
         11,
+        9,
+        18,
+        10,
         15
       ],
       "buddies": [],
@@ -1745,181 +1272,7 @@
         12
       ]
     },
-    "System.node.constant|lumped|tokenA_tokenB.default": {
-      "tree": {
-        "0": {
-          "ancestors": [],
-          "children": [
-            1
-          ]
-        },
-        "1": {
-          "ancestors": [
-            0
-          ],
-          "children": [
-            2,
-            3
-          ]
-        },
-        "2": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": [
-            4
-          ]
-        },
-        "3": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": [
-            6
-          ]
-        },
-        "4": {
-          "ancestors": [
-            2,
-            1,
-            0
-          ],
-          "children": [
-            5
-          ]
-        },
-        "5": {
-          "ancestors": [
-            4,
-            2,
-            1,
-            0
-          ],
-          "children": []
-        },
-        "6": {
-          "ancestors": [
-            3,
-            1,
-            0
-          ],
-          "children": []
-        }
-      },
-      "nodes": {
-        "0": "variable_20",
-        "1": "equation_19",
-        "2": "variable_11",
-        "3": "variable_12",
-        "4": "equation_14",
-        "5": "variable_2",
-        "6": "equation_15"
-      },
-      "IDs": {
-        "variable_20": 0,
-        "equation_19": 1,
-        "variable_11": 2,
-        "variable_12": 3,
-        "equation_14": 4,
-        "variable_2": 5,
-        "equation_15": 6
-      },
-      "root_variable": 20,
-      "blocked": [
-        7,
-        8,
-        11
-      ],
-      "buddies": [],
-      "to_be_initialised": [
-        11,
-        12
-      ]
-    },
-    "System.node.constant|lumped|tokenB.default": {
-      "tree": {
-        "0": {
-          "ancestors": [],
-          "children": [
-            1
-          ]
-        },
-        "1": {
-          "ancestors": [
-            0
-          ],
-          "children": [
-            2,
-            3
-          ]
-        },
-        "2": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": []
-        },
-        "3": {
-          "ancestors": [
-            1,
-            0
-          ],
-          "children": [
-            4
-          ]
-        },
-        "4": {
-          "ancestors": [
-            3,
-            1,
-            0
-          ],
-          "children": [
-            5
-          ]
-        },
-        "5": {
-          "ancestors": [
-            4,
-            3,
-            1,
-            0
-          ],
-          "children": []
-        }
-      },
-      "nodes": {
-        "0": "variable_20",
-        "1": "equation_19",
-        "2": "variable_11",
-        "3": "variable_12",
-        "4": "equation_15",
-        "5": "variable_2"
-      },
-      "IDs": {
-        "variable_20": 0,
-        "equation_19": 1,
-        "variable_11": 2,
-        "variable_12": 3,
-        "equation_15": 4,
-        "variable_2": 5
-      },
-      "root_variable": 20,
-      "blocked": [
-        7,
-        8,
-        14,
-        11
-      ],
-      "buddies": [],
-      "to_be_initialised": [
-        11,
-        12
-      ]
-    }
+    "System.node.constant|lumped|tokenA_tokenB.default": null
   },
   "associations": {
     "System": {

@@ -93,5 +93,15 @@
     "lhs": "pi_stack",
     "network": "System",
     "rhs": " Stack ( pi_a , pi_b )"
+  },
+  "20": {
+    "lhs": "fx_a",
+    "network": "System",
+    "rhs": " Instantiate ( fx_a , value )"
+  },
+  "21": {
+    "lhs": "fx_b",
+    "network": "System",
+    "rhs": " Instantiate ( fx_b , value )"
   }
 }
