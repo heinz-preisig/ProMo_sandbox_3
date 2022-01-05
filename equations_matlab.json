@@ -11,59 +11,17 @@
     "network": "root",
     "rhs": "Instantiate(t, value)"
   },
-  "3": {
-    "variable_ID": 7,
-    "lhs": "K",
-    "network": "System",
-    "rhs": "Instantiate(inv(t), value)"
-  },
-  "4": {
-    "variable_ID": 8,
-    "lhs": "L",
-    "network": "System",
-    "rhs": "Instantiate(inv(t), value)"
-  },
-  "5": {
-    "variable_ID": 9,
-    "lhs": "M",
-    "network": "System",
-    "rhs": "Instantiate(value, value)"
-  },
-  "6": {
-    "variable_ID": 10,
-    "lhs": "N",
-    "network": "System",
-    "rhs": "Instantiate(value, value)"
-  },
   "7": {
     "variable_ID": 11,
-    "lhs": "pi_a",
+    "lhs": "pi_A_alpha",
     "network": "System",
-    "rhs": "M .* x"
+    "rhs": "M_A_alpha .* x"
   },
   "8": {
     "variable_ID": 12,
-    "lhs": "pi_b",
+    "lhs": "pi_A_beta",
     "network": "System",
-    "rhs": "N .* x"
-  },
-  "9": {
-    "variable_ID": 14,
-    "lhs": "fx_a",
-    "network": "System",
-    "rhs": "F * (( K .* F )'  * pi_a)"
-  },
-  "10": {
-    "variable_ID": 15,
-    "lhs": "fx_b",
-    "network": "System",
-    "rhs": "F * (( L .* F )'  * pi_b)"
-  },
-  "11": {
-    "variable_ID": 16,
-    "lhs": "dx",
-    "network": "System",
-    "rhs": "fx_a + fx_b"
+    "rhs": "M_A_beta .* x"
   },
   "12": {
     "variable_ID": 17,
@@ -71,23 +29,17 @@
     "network": "System",
     "rhs": "Instantiate(x, value)"
   },
-  "13": {
-    "variable_ID": 5,
-    "lhs": "x",
-    "network": "System",
-    "rhs": "Integral(dx,t,to,te) + xo"
-  },
   "14": {
     "variable_ID": 11,
-    "lhs": "pi_a",
+    "lhs": "pi_A_alpha",
     "network": "System",
-    "rhs": "Instantiate(pi_a, value)"
+    "rhs": "Instantiate(pi_A_alpha, value)"
   },
   "15": {
     "variable_ID": 12,
-    "lhs": "pi_b",
+    "lhs": "pi_A_beta",
     "network": "System",
-    "rhs": "Instantiate(pi_b, value)"
+    "rhs": "Instantiate(pi_A_beta, value)"
   },
   "16": {
     "variable_ID": 18,
@@ -109,20 +61,152 @@
   },
   "19": {
     "variable_ID": 20,
-    "lhs": "pi_stack",
+    "lhs": "pi_A_stack",
     "network": "System",
-    "rhs": "Stack(pi_a,pi_b)"
+    "rhs": "Stack(pi_A_alpha,pi_A_beta)"
   },
-  "20": {
-    "variable_ID": 14,
-    "lhs": "fx_a",
+  "22": {
+    "variable_ID": 23,
+    "lhs": "K_B_gamma",
     "network": "System",
-    "rhs": "Instantiate(fx_a, value)"
+    "rhs": "Instantiate(inv(t), value)"
   },
-  "21": {
-    "variable_ID": 15,
-    "lhs": "fx_b",
+  "23": {
+    "variable_ID": 24,
+    "lhs": "pi_B_gamma",
     "network": "System",
-    "rhs": "Instantiate(fx_b, value)"
+    "rhs": "M_B_gamma .* y"
+  },
+  "26": {
+    "variable_ID": 27,
+    "lhs": "yo",
+    "network": "System",
+    "rhs": "Instantiate(y, value)"
+  },
+  "28": {
+    "variable_ID": 28,
+    "lhs": "fx_A_alpha",
+    "network": "System",
+    "rhs": "( K_A_alpha .* F )'  * pi_A_alpha"
+  },
+  "29": {
+    "variable_ID": 29,
+    "lhs": "fx_A_beta",
+    "network": "System",
+    "rhs": "( K_A_beta .* F )'  * pi_A_beta"
+  },
+  "30": {
+    "variable_ID": 30,
+    "lhs": "K_B_delta",
+    "network": "System",
+    "rhs": "Instantiate(inv(t), value)"
+  },
+  "31": {
+    "variable_ID": 32,
+    "lhs": "fy_B_gamma",
+    "network": "System",
+    "rhs": "( K_B_gamma .* F )'  * pi_B_gamma"
+  },
+  "32": {
+    "variable_ID": 33,
+    "lhs": "pi_B_delta",
+    "network": "System",
+    "rhs": "M_B_delta .* y"
+  },
+  "34": {
+    "variable_ID": 35,
+    "lhs": "fy_B_delta",
+    "network": "System",
+    "rhs": "( K_B_delta .* F )'  * pi_B_delta"
+  },
+  "35": {
+    "variable_ID": 26,
+    "lhs": "dy",
+    "network": "System",
+    "rhs": "F * fy_B_gamma + F * fy_B_delta"
+  },
+  "36": {
+    "variable_ID": 26,
+    "lhs": "dy",
+    "network": "System",
+    "rhs": "Instantiate(dy, value)"
+  },
+  "37": {
+    "variable_ID": 16,
+    "lhs": "dx",
+    "network": "System",
+    "rhs": "F * fx_A_alpha + F * fx_A_beta"
+  },
+  "38": {
+    "variable_ID": 5,
+    "lhs": "x",
+    "network": "System",
+    "rhs": "Integral(dx,t,to,te)"
+  },
+  "39": {
+    "variable_ID": 21,
+    "lhs": "y",
+    "network": "System",
+    "rhs": "Integral(dy,t,to,te)"
+  },
+  "40": {
+    "variable_ID": 7,
+    "lhs": "K_A_alpha",
+    "network": "System",
+    "rhs": "Instantiate(inv(t), value)"
+  },
+  "41": {
+    "variable_ID": 8,
+    "lhs": "K_A_beta",
+    "network": "System",
+    "rhs": "Instantiate(inv(t), value)"
+  },
+  "42": {
+    "variable_ID": 9,
+    "lhs": "M_A_alpha",
+    "network": "System",
+    "rhs": "Instantiate(value, value)"
+  },
+  "43": {
+    "variable_ID": 10,
+    "lhs": "M_A_beta",
+    "network": "System",
+    "rhs": "Instantiate(value, value)"
+  },
+  "44": {
+    "variable_ID": 36,
+    "lhs": "pi_B_stack",
+    "network": "System",
+    "rhs": "Stack(pi_B_gamma,pi_B_delta)"
+  },
+  "45": {
+    "variable_ID": 32,
+    "lhs": "fy_B_gamma",
+    "network": "System",
+    "rhs": "Instantiate(fy_B_gamma, value)"
+  },
+  "46": {
+    "variable_ID": 35,
+    "lhs": "fy_B_delta",
+    "network": "System",
+    "rhs": "Instantiate(fy_B_delta, value)"
+  },
+  "47": {
+    "variable_ID": 28,
+    "lhs": "fx_A_alpha",
+    "network": "System",
+    "rhs": "Instantiate(fx_A_alpha, value)"
+  },
+  "48": {
+    "variable_ID": 29,
+    "lhs": "fx_A_beta",
+    "network": "System",
+    "rhs": "Instantiate(fx_A_beta, value)"
+  },
+  "49": {
+    "variable_ID": 29,
+    "lhs": "fx_A_beta",
+    "network": "System",
+    "rhs": "( K_A_beta .* F )'  * pi_A_beta"
   }
 }

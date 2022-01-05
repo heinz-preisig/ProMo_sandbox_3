@@ -13,88 +13,140 @@ no & equation &documentation &layer \\\hline\hline
 \endlastfoot
 
 \hyperlink{"v:3"}{ 1 }\hypertarget{"e:1"}{  } &
-    \begin{eq}{{t^o}}{_{N}} := Set({t}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{{t^o}}{_{N}} := \text{Instantiate}({t}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}starting time\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:4"}{ 2 }\hypertarget{"e:2"}{  } &
-    \begin{eq}{{t^e}}{_{N}} := Set({t}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{{t^e}}{_{N}} := \text{Instantiate}({t}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}end time\end{lay} &
     \begin{lay}root\end{lay} \\
-\hyperlink{"v:7"}{ 3 }\hypertarget{"e:3"}{  } &
-    \begin{eq}{K}{_{N}} := Set(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}frequency a\end{lay} &
-    \begin{lay}System\end{lay} \\
-\hyperlink{"v:8"}{ 4 }\hypertarget{"e:4"}{  } &
-    \begin{eq}{L}{_{N}} := Set(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}frequency b\end{lay} &
-    \begin{lay}System\end{lay} \\
-\hyperlink{"v:9"}{ 5 }\hypertarget{"e:5"}{  } &
-    \begin{eq}{M}{_{}} := Set({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}gain a\end{lay} &
-    \begin{lay}System\end{lay} \\
-\hyperlink{"v:10"}{ 6 }\hypertarget{"e:6"}{  } &
-    \begin{eq}{N}{_{}} := Set({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}gain b\end{lay} &
-    \begin{lay}System\end{lay} \\
 \hyperlink{"v:11"}{ 7 }\hypertarget{"e:7"}{  } &
-    \begin{eq}{{\pi^a}}{_{N}} := {M}{_{}} \, . \, {x}{_{N}}\end{eq} &
+    \begin{eq}{{\pi^{A,\alpha}}}{_{N}} := {{M^{A,\alpha}}}{_{}} \, . \, {x}{_{N}}\end{eq} &
     \begin{lay}effort a\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:12"}{ 8 }\hypertarget{"e:8"}{  } &
-    \begin{eq}{{\pi^b}}{_{N}} := {N}{_{}} \, . \, {x}{_{N}}\end{eq} &
+    \begin{eq}{{\pi^{A,\beta}}}{_{N}} := {{M^{A,\beta}}}{_{}} \, . \, {x}{_{N}}\end{eq} &
     \begin{lay}effort b\end{lay} &
     \begin{lay}System\end{lay} \\
-\hyperlink{"v:14"}{ 9 }\hypertarget{"e:9"}{  } &
-    \begin{eq}{{\hat{x}^a}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({K}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^a}}{_{N}}\right)\end{eq} &
-    \begin{lay}flow of x mechanism a\end{lay} &
-    \begin{lay}System\end{lay} \\
-\hyperlink{"v:15"}{ 10 }\hypertarget{"e:10"}{  } &
-    \begin{eq}{{\hat{x}^b}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({L}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^b}}{_{N}}\right)\end{eq} &
-    \begin{lay}flow of x mechanism b\end{lay} &
-    \begin{lay}System\end{lay} \\
-\hyperlink{"v:16"}{ 11 }\hypertarget{"e:11"}{  } &
-    \begin{eq}{{\dot{x}}}{_{N}} := {{\hat{x}^a}}{_{N}}  + {{\hat{x}^b}}{_{N}}\end{eq} &
-    \begin{lay}differential state\end{lay} &
-    \begin{lay}System\end{lay} \\
 \hyperlink{"v:17"}{ 12 }\hypertarget{"e:12"}{  } &
-    \begin{eq}{{x^o}}{_{N}} := Set({x}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{{x^o}}{_{N}} := \text{Instantiate}({x}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}initial condition\end{lay} &
     \begin{lay}System\end{lay} \\
-\hyperlink{"v:5"}{ 13 }\hypertarget{"e:13"}{  } &
-    \begin{eq}{x}{_{N}} := \int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \, {{\dot{x}}}{_{N}} \enskip d\,{t}{_{N}}  + {{x^o}}{_{N}}\end{eq} &
-    \begin{lay}state - length\end{lay} &
-    \begin{lay}System\end{lay} \\
 \hyperlink{"v:11"}{ 14 }\hypertarget{"e:14"}{  } &
-    \begin{eq}{{\pi^a}}{_{N}} := Set({{\pi^a}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{{\pi^{A,\alpha}}}{_{N}} := \text{Instantiate}({{\pi^{A,\alpha}}}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}effort a\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:12"}{ 15 }\hypertarget{"e:15"}{  } &
-    \begin{eq}{{\pi^b}}{_{N}} := Set({{\pi^b}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{{\pi^{A,\beta}}}{_{N}} := \text{Instantiate}({{\pi^{A,\beta}}}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}effort b\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:18"}{ 16 }\hypertarget{"e:16"}{  } &
-    \begin{eq}{0}{_{}} := Set({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{0}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}numerical value 0\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:19"}{ 17 }\hypertarget{"e:17"}{  } &
-    \begin{eq}{1}{_{}} := Set({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
+    \begin{eq}{1}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}numerical value 1\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:16"}{ 18 }\hypertarget{"e:18"}{  } &
-    \begin{eq}{{\dot{x}}}{_{N}} := Set({{\dot{x}}}{_{N}}, {0}{_{}})\end{eq} &
+    \begin{eq}{{\dot{x}}}{_{N}} := \text{Instantiate}({{\dot{x}}}{_{N}}, {0}{_{}})\end{eq} &
     \begin{lay}differential state\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:20"}{ 19 }\hypertarget{"e:19"}{  } &
-    \begin{eq}{{\V{\pi}}}{_{N}} := Stack\left( {{\pi^a}}{_{N}},{{\pi^b}}{_{N}} \right)\end{eq} &
+    \begin{eq}{{\V{\pi}^{A}}}{_{N}} := Stack\left( {{\pi^{A,\alpha}}}{_{N}},{{\pi^{A,\beta}}}{_{N}} \right)\end{eq} &
     \begin{lay}the stack of intensive variables\end{lay} &
     \begin{lay}System\end{lay} \\
-\hyperlink{"v:14"}{ 20 }\hypertarget{"e:20"}{  } &
-    \begin{eq}{{\hat{x}^a}}{_{N}} := Set({{\hat{x}^a}}{_{N}}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}flow of x mechanism a\end{lay} &
+\hyperlink{"v:23"}{ 22 }\hypertarget{"e:22"}{  } &
+    \begin{eq}{{K^{B,\gamma}}}{_{N}} := \text{Instantiate}(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}frequency B alpha\end{lay} &
     \begin{lay}System\end{lay} \\
-\hyperlink{"v:15"}{ 21 }\hypertarget{"e:21"}{  } &
-    \begin{eq}{{\hat{x}^b}}{_{N}} := Set({{\hat{x}^b}}{_{N}}, {{\#}}{_{}})\end{eq} &
-    \begin{lay}flow of x mechanism b\end{lay} &
+\hyperlink{"v:24"}{ 23 }\hypertarget{"e:23"}{  } &
+    \begin{eq}{{\pi^{B,\gamma}}}{_{N}} := {{M^{B,\gamma}}}{_{}} \, . \, {y}{_{N}}\end{eq} &
+    \begin{lay}transport of B mechanism gamma\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:27"}{ 26 }\hypertarget{"e:26"}{  } &
+    \begin{eq}{{y^{o}}}{_{N}} := \text{Instantiate}({y}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}initial condition for token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:28"}{ 28 }\hypertarget{"e:28"}{  } &
+    \begin{eq}{{\hat{x}^{A,\alpha}}}{_{A}} := {{K^{A,\alpha}}}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{A,\alpha}}}{_{N}}\end{eq} &
+    \begin{lay}flow of A mechanism alpha\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:30"}{ 30 }\hypertarget{"e:30"}{  } &
+    \begin{eq}{{K^{B,\delta}}}{_{N}} := \text{Instantiate}(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}var doc : frequency B delta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:32"}{ 31 }\hypertarget{"e:31"}{  } &
+    \begin{eq}{{\hat{y}^{B,\gamma}}}{_{A}} := {{K^{B,\gamma}}}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\gamma}}}{_{N}}\end{eq} &
+    \begin{lay}flow of B mechanism gamma\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:33"}{ 32 }\hypertarget{"e:32"}{  } &
+    \begin{eq}{{\pi^{B,\delta}}}{_{N}} := {{M^{B,\delta}}}{_{}} \, . \, {y}{_{N}}\end{eq} &
+    \begin{lay}effort B mechansim delta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:35"}{ 34 }\hypertarget{"e:34"}{  } &
+    \begin{eq}{{\hat{y}^{B,\delta}}}{_{A}} := {{K^{B,\delta}}}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\delta}}}{_{N}}\end{eq} &
+    \begin{lay}flow of B mechanism delta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:26"}{ 35 }\hypertarget{"e:35"}{  } &
+    \begin{eq}{{\dot{y}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} {{\hat{y}^{B,\gamma}}}{_{A}}  + {F}{_{N, A}} \stackrel{A}{\,\star\,} {{\hat{y}^{B,\delta}}}{_{A}}\end{eq} &
+    \begin{lay}differential state for token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:26"}{ 36 }\hypertarget{"e:36"}{  } &
+    \begin{eq}{{\dot{y}}}{_{N}} := \text{Instantiate}({{\dot{y}}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}differential state for token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:16"}{ 37 }\hypertarget{"e:37"}{  } &
+    \begin{eq}{{\dot{x}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} {{\hat{x}^{A,\alpha}}}{_{A}}  + {F}{_{N, A}} \stackrel{A}{\,\star\,} {{\hat{x}^{A,\beta}}}{_{A}}\end{eq} &
+    \begin{lay}differential state\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:5"}{ 38 }\hypertarget{"e:38"}{  } &
+    \begin{eq}{x}{_{N}} := \int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \, {{\dot{x}}}{_{N}} \enskip d\,{t}{_{N}}\end{eq} &
+    \begin{lay}state token A\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:21"}{ 39 }\hypertarget{"e:39"}{  } &
+    \begin{eq}{y}{_{N}} := \int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \, {{\dot{y}}}{_{N}} \enskip d\,{t}{_{N}}\end{eq} &
+    \begin{lay}state token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:7"}{ 40 }\hypertarget{"e:40"}{  } &
+    \begin{eq}{{K^{A,\alpha}}}{_{N}} := \text{Instantiate}(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}frequency token A\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:8"}{ 41 }\hypertarget{"e:41"}{  } &
+    \begin{eq}{{K^{A,\beta}}}{_{N}} := \text{Instantiate}(\left( {t}{_{N}} \right)^{-1}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}frequency token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:9"}{ 42 }\hypertarget{"e:42"}{  } &
+    \begin{eq}{{M^{A,\alpha}}}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}norming factor token A mechanism alpha\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:10"}{ 43 }\hypertarget{"e:43"}{  } &
+    \begin{eq}{{M^{A,\beta}}}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}norming factor token A mechanism beta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:36"}{ 44 }\hypertarget{"e:44"}{  } &
+    \begin{eq}{{\V{\pi}^{B}}}{_{N}} := Stack\left( {{\pi^{B,\gamma}}}{_{N}},{{\pi^{B,\delta}}}{_{N}} \right)\end{eq} &
+    \begin{lay}the stack of intensive variables token B\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:32"}{ 45 }\hypertarget{"e:45"}{  } &
+    \begin{eq}{{\hat{y}^{B,\gamma}}}{_{A}} := \text{Instantiate}({{\hat{y}^{B,\gamma}}}{_{A}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}flow of B mechanism gamma\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:35"}{ 46 }\hypertarget{"e:46"}{  } &
+    \begin{eq}{{\hat{y}^{B,\delta}}}{_{A}} := \text{Instantiate}({{\hat{y}^{B,\delta}}}{_{A}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}flow of B mechanism delta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:28"}{ 47 }\hypertarget{"e:47"}{  } &
+    \begin{eq}{{\hat{x}^{A,\alpha}}}{_{A}} := \text{Instantiate}({{\hat{x}^{A,\alpha}}}{_{A}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}flow of A mechanism alpha\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:29"}{ 48 }\hypertarget{"e:48"}{  } &
+    \begin{eq}{{\hat{x}^{A,\beta}}}{_{A}} := \text{Instantiate}({{\hat{x}^{A,\beta}}}{_{A}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}flow of A mechanism beta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:29"}{ 49 }\hypertarget{"e:49"}{  } &
+    \begin{eq}{{\hat{x}^{A,\beta}}}{_{A}} := {{K^{A,\beta}}}{_{N}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{A,\beta}}}{_{N}}\end{eq} &
+    \begin{lay}flow of A mechanism beta\end{lay} &
     \begin{lay}System\end{lay} \\
 \hline
 \end{longtable}

@@ -1,0 +1,587 @@
+{
+  "version": "8",
+  "variables": {
+    "1": {
+      "aliases": "{'global_ID': ' V_1', 'python': 't', 'cpp': 't', 'matlab': 't', 'latex': 't', 'internal_code': 't'}",
+      "doc": "time",
+      "equations": "{}",
+      "index_structures": "[1]",
+      "label": "t",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "2": {
+      "aliases": "{'global_ID': ' V_2', 'python': 'value', 'cpp': 'value', 'matlab': 'value', 'latex': '{\\\\#}', 'internal_code': 'value'}",
+      "doc": "numerical value",
+      "equations": "{}",
+      "index_structures": "[]",
+      "label": "value",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "3": {
+      "aliases": "{'global_ID': ' V_3', 'python': 'to', 'cpp': 'to', 'matlab': 'to', 'latex': '{t^o}', 'internal_code': 'to'}",
+      "doc": "starting time",
+      "equations": "{1: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'starting time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "to",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "4": {
+      "aliases": "{'global_ID': ' V_4', 'python': 'te', 'cpp': 'te', 'matlab': 'te', 'latex': '{t^e}', 'internal_code': 'te'}",
+      "doc": "end time",
+      "equations": "{2: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'end time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "te",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "5": {
+      "aliases": "{'global_ID': ' V_5', 'python': 'x', 'cpp': 'x', 'matlab': 'x', 'latex': 'x', 'internal_code': 'x'}",
+      "doc": "state token A",
+      "equations": "{38: {'rhs': ' O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1', 'type': 'generic', 'doc': 'state token A', 'network': 'System', 'incidence_list': ['1', '16', '3', '4']}}",
+      "index_structures": "[1]",
+      "label": "x",
+      "network": "System",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "7": {
+      "aliases": "{'global_ID': ' V_7', 'python': 'K_A_alpha', 'cpp': 'K_A_alpha', 'matlab': 'K_A_alpha', 'latex': '{K^{A,\\\\alpha}}', 'internal_code': 'K_A_alpha'}",
+      "doc": "frequency token A",
+      "equations": "{40: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'frequency token A', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "K_A_alpha",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "8": {
+      "aliases": "{'global_ID': ' V_8', 'python': 'K_A_beta', 'cpp': 'K_A_beta', 'matlab': 'K_A_beta', 'latex': '{K^{A,\\\\beta}}', 'internal_code': 'K_A_beta'}",
+      "doc": "frequency token B",
+      "equations": "{41: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'frequency token B', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "K_A_beta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "9": {
+      "aliases": "{'global_ID': ' V_9', 'python': 'M_A_alpha', 'cpp': 'M_A_alpha', 'matlab': 'M_A_alpha', 'latex': '{M^{A,\\\\alpha}}', 'internal_code': 'M_A_alpha'}",
+      "doc": "norming factor token A mechanism alpha",
+      "equations": "{42: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'norming factor token A mechanism alpha', 'network': 'System', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "M_A_alpha",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "10": {
+      "aliases": "{'global_ID': ' V_10', 'python': 'M_A_beta', 'cpp': 'M_A_beta', 'matlab': 'M_A_beta', 'latex': '{M^{A,\\\\beta}}', 'internal_code': 'M_A_beta'}",
+      "doc": "norming factor token A mechanism beta",
+      "equations": "{43: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'norming factor token A mechanism beta', 'network': 'System', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "M_A_beta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "11": {
+      "aliases": "{'global_ID': ' V_11', 'python': 'pi_A_alpha', 'cpp': 'pi_A_alpha', 'matlab': 'pi_A_alpha', 'latex': '{\\\\pi^{A,\\\\alpha}}', 'internal_code': 'pi_A_alpha'}",
+      "doc": "effort A mechanism alpha",
+      "equations": "{7: {'rhs': ' V_9 O_4 V_5', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['5', '9']}, 14: {'rhs': ' O_11 D_0 V_11 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['11', '2']}}",
+      "index_structures": "[1]",
+      "label": "pi_A_alpha",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "12": {
+      "aliases": "{'global_ID': ' V_12', 'python': 'pi_A_beta', 'cpp': 'pi_A_beta', 'matlab': 'pi_A_beta', 'latex': '{\\\\pi^{A,\\\\beta}}', 'internal_code': 'pi_A_beta'}",
+      "doc": "effort A mechanism beta",
+      "equations": "{8: {'rhs': ' V_10 O_4 V_5', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['10', '5']}, 15: {'rhs': ' O_11 D_0 V_12 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['12', '2']}}",
+      "index_structures": "[1]",
+      "label": "pi_A_beta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "13": {
+      "aliases": "{'global_ID': ' V_13', 'python': 'F', 'cpp': 'F', 'matlab': 'F', 'latex': 'F', 'internal_code': 'F'}",
+      "doc": "directed graph incidence matrix",
+      "equations": "{}",
+      "index_structures": "[1, 2]",
+      "label": "F",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "network",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "16": {
+      "aliases": "{'global_ID': ' V_16', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
+      "doc": "differential state",
+      "equations": "{18: {'rhs': ' O_11 D_0 V_16 D_7 V_18 D_1', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['16', '18']}, 37: {'rhs': ' V_13  O_5  I_2 O_5  V_28 O_0 V_13  O_5  I_2 O_5  V_29', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['13', '13', '28', '29']}}",
+      "index_structures": "[1]",
+      "label": "dx",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "17": {
+      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': '{x^o}', 'internal_code': 'xo'}",
+      "doc": "initial condition for token A",
+      "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
+      "index_structures": "[1]",
+      "label": "xo",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "18": {
+      "aliases": "{'global_ID': ' V_18', 'python': 'null', 'cpp': 'null', 'matlab': 'null', 'latex': '0', 'internal_code': 'null'}",
+      "doc": "numerical value 0",
+      "equations": "{16: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 0', 'network': 'root', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "null",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "19": {
+      "aliases": "{'global_ID': ' V_19', 'python': 'one', 'cpp': 'one', 'matlab': 'one', 'latex': '1', 'internal_code': 'one'}",
+      "doc": "numerical value 1",
+      "equations": "{17: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 1', 'network': 'root', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "one",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "20": {
+      "aliases": "{'global_ID': ' V_20', 'python': 'pi_A_stack', 'cpp': 'pi_A_stack', 'matlab': 'pi_A_stack', 'latex': '{\\\\V{\\\\pi}^{A}}', 'internal_code': 'pi_A_stack'}",
+      "doc": "the stack of intensive variables token A",
+      "equations": "{19: {'rhs': ' F_20 D_0 V_11 D_7 V_12 D_1', 'type': 'generic', 'doc': 'the stack of intensive variables', 'network': 'System', 'incidence_list': ['11', '12']}}",
+      "index_structures": "[1]",
+      "label": "pi_A_stack",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "21": {
+      "aliases": "{'global_ID': ' V_21', 'python': 'y', 'cpp': 'y', 'matlab': 'y', 'latex': 'y', 'internal_code': 'y'}",
+      "doc": "state token B",
+      "equations": "{39: {'rhs': ' O_9 D_0 V_26 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1', 'type': 'generic', 'doc': 'state token B', 'network': 'System', 'incidence_list': ['1', '26', '3', '4']}}",
+      "index_structures": "[1]",
+      "label": "y",
+      "network": "System",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "22": {
+      "aliases": "{'global_ID': ' V_22', 'python': 'M_B_gamma', 'cpp': 'M_B_gamma', 'matlab': 'M_B_gamma', 'latex': '{M^{B,\\\\gamma}}', 'internal_code': 'M_B_gamma'}",
+      "doc": "norming factor token B mechanism gamma",
+      "equations": "{}",
+      "index_structures": "[]",
+      "label": "M_B_gamma",
+      "network": "System",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "23": {
+      "aliases": "{'global_ID': ' V_23', 'python': 'K_B_gamma', 'cpp': 'K_B_gamma', 'matlab': 'K_B_gamma', 'latex': '{K^{B,\\\\gamma}}', 'internal_code': 'K_B_gamma'}",
+      "doc": "norming factor token A mechanism d",
+      "equations": "{22: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'frequency B alpha', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "K_B_gamma",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "24": {
+      "aliases": "{'global_ID': ' V_24', 'python': 'pi_B_gamma', 'cpp': 'pi_B_gamma', 'matlab': 'pi_B_gamma', 'latex': '{\\\\pi^{B,\\\\gamma}}', 'internal_code': 'pi_B_gamma'}",
+      "doc": "effort B mechanism gamma",
+      "equations": "{23: {'rhs': ' V_22 O_4 V_21', 'type': 'generic', 'doc': 'transport of B mechanism gamma', 'network': 'System', 'incidence_list': ['21', '22']}}",
+      "index_structures": "[1]",
+      "label": "pi_B_gamma",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "26": {
+      "aliases": "{'global_ID': ' V_26', 'python': 'dy', 'cpp': 'dy', 'matlab': 'dy', 'latex': '{\\\\dot{y}}', 'internal_code': 'dy'}",
+      "doc": "differential state for token B",
+      "equations": "{35: {'rhs': ' V_13  O_5  I_2 O_5  V_32 O_0 V_13  O_5  I_2 O_5  V_35', 'type': 'generic', 'doc': 'differential state for token B', 'network': 'System', 'incidence_list': ['13', '13', '32', '35']}, 36: {'rhs': ' O_11 D_0 V_26 D_7 V_2 D_1', 'type': 'generic', 'doc': 'differential state for token B', 'network': 'System', 'incidence_list': ['2', '26']}}",
+      "index_structures": "[1]",
+      "label": "dy",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "27": {
+      "aliases": "{'global_ID': ' V_27', 'python': 'yo', 'cpp': 'yo', 'matlab': 'yo', 'latex': '{y^{o}}', 'internal_code': 'yo'}",
+      "doc": "initial condition for token B",
+      "equations": "{26: {'rhs': ' O_11 D_0 V_21 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition for token B', 'network': 'System', 'incidence_list': ['2', '21']}}",
+      "index_structures": "[1]",
+      "label": "yo",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "28": {
+      "aliases": "{'global_ID': ' V_28', 'python': 'fx_A_alpha', 'cpp': 'fx_A_alpha', 'matlab': 'fx_A_alpha', 'latex': '{\\\\hat{x}^{A,\\\\alpha}}', 'internal_code': 'fx_A_alpha'}",
+      "doc": "flow of A mechanism alpha",
+      "equations": "{28: {'rhs': ' V_7 O_4 V_13  O_5  I_1 O_5  V_11', 'type': 'generic', 'doc': 'flow of A mechanism alpha', 'network': 'System', 'incidence_list': ['11', '13', '7']}}",
+      "index_structures": "[2]",
+      "label": "fx_A_alpha",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "29": {
+      "aliases": "{'global_ID': ' V_29', 'python': 'fx_A_beta', 'cpp': 'fx_A_beta', 'matlab': 'fx_A_beta', 'latex': '{\\\\hat{x}^{A,\\\\beta}}', 'internal_code': 'fx_A_beta'}",
+      "doc": "flow of A mechanism beta",
+      "equations": "{29: {'rhs': ' V_8 O_4 V_13  O_5  I_1 O_5  V_12', 'type': 'generic', 'doc': 'flow of A mechanism beta', 'network': 'System', 'incidence_list': ['12', '13', '8']}}",
+      "index_structures": "[2]",
+      "label": "fx_A_beta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "30": {
+      "aliases": "{'global_ID': ' V_30', 'python': 'K_B_delta', 'cpp': 'K_B_delta', 'matlab': 'K_B_delta', 'latex': '{K^{B,\\\\delta}}', 'internal_code': 'K_B_delta'}",
+      "doc": "frequency B delta",
+      "equations": "{30: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'var doc : frequency B delta', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "K_B_delta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "31": {
+      "aliases": "{'global_ID': ' V_31', 'python': 'M_B_delta', 'cpp': 'M_B_delta', 'matlab': 'M_B_delta', 'latex': '{M^{B,\\\\delta}}', 'internal_code': 'M_B_delta'}",
+      "doc": "norming factor token B mechanism delta",
+      "equations": "{}",
+      "index_structures": "[]",
+      "label": "M_B_delta",
+      "network": "System",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "32": {
+      "aliases": "{'global_ID': ' V_32', 'python': 'fy_B_gamma', 'cpp': 'fy_B_gamma', 'matlab': 'fy_B_gamma', 'latex': '{\\\\hat{y}^{B,\\\\gamma}}', 'internal_code': 'fy_B_gamma'}",
+      "doc": "flow of B mechanism gamma",
+      "equations": "{31: {'rhs': ' V_23 O_4 V_13  O_5  I_1 O_5  V_24', 'type': 'generic', 'doc': 'flow of B mechanism gamma', 'network': 'System', 'incidence_list': ['13', '23', '24']}}",
+      "index_structures": "[2]",
+      "label": "fy_B_gamma",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "33": {
+      "aliases": "{'global_ID': ' V_33', 'python': 'pi_B_delta', 'cpp': 'pi_B_delta', 'matlab': 'pi_B_delta', 'latex': '{\\\\pi^{B,\\\\delta}}', 'internal_code': 'pi_B_delta'}",
+      "doc": "effort B mechansim delta",
+      "equations": "{32: {'rhs': ' V_31 O_4 V_21', 'type': 'generic', 'doc': 'effort B mechansim delta', 'network': 'System', 'incidence_list': ['21', '31']}}",
+      "index_structures": "[1]",
+      "label": "pi_B_delta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "35": {
+      "aliases": "{'global_ID': ' V_35', 'python': 'fy_B_delta', 'cpp': 'fy_B_delta', 'matlab': 'fy_B_delta', 'latex': '{\\\\hat{y}^{B,\\\\delta}}', 'internal_code': 'fy_B_delta'}",
+      "doc": "flow of B mechanism delta",
+      "equations": "{34: {'rhs': ' V_30 O_4 V_13  O_5  I_1 O_5  V_33', 'type': 'generic', 'doc': 'flow of B mechanism delta', 'network': 'System', 'incidence_list': ['13', '30', '33']}}",
+      "index_structures": "[2]",
+      "label": "fy_B_delta",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "36": {
+      "aliases": "{'global_ID': ' V_36', 'python': 'pi_B_stack', 'cpp': 'pi_B_stack', 'matlab': 'pi_B_stack', 'latex': '{\\\\V{\\\\pi}^{B}}', 'internal_code': 'pi_B_stack'}",
+      "doc": "the stack of intensive variables token B",
+      "equations": "{44: {'rhs': ' F_20 D_0 V_24 D_7 V_33 D_1', 'type': 'generic', 'doc': 'the stack of intensive variables token B', 'network': 'System', 'incidence_list': ['24', '33']}}",
+      "index_structures": "[1]",
+      "label": "pi_B_stack",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    }
+  },
+  "indices": {
+    "1": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_1",
+        "python": "N",
+        "cpp": "N",
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N"
+      },
+      "tokens": null
+    },
+    "2": {
+      "type": "index",
+      "label": "arc",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_2",
+        "python": "A",
+        "cpp": "A",
+        "matlab": "A",
+        "latex": "A",
+        "internal_code": "A"
+      },
+      "tokens": null
+    },
+    "3": {
+      "type": "index",
+      "label": "molecule",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_3",
+        "python": "M",
+        "cpp": "M",
+        "matlab": "M",
+        "latex": "M",
+        "internal_code": "M"
+      },
+      "tokens": "tokenA"
+    },
+    "4": {
+      "type": "index",
+      "label": "molecule_conversion",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_4",
+        "python": "CM",
+        "cpp": "CM",
+        "matlab": "CM",
+        "latex": "CM",
+        "internal_code": "CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": "block_index",
+      "label": "node & molecule",
+      "indices": [
+        1,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_5",
+        "python": "N_x_M",
+        "cpp": "N_x_M",
+        "matlab": "N_x_M",
+        "latex": "{N M}",
+        "internal_code": "N & M"
+      },
+      "tokens": "tokenA"
+    },
+    "6": {
+      "type": "block_index",
+      "label": "arc & molecule",
+      "indices": [
+        2,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_6",
+        "python": "A_x_M",
+        "cpp": "A_x_M",
+        "matlab": "A_x_M",
+        "latex": "{A M}",
+        "internal_code": "A & M"
+      },
+      "tokens": "tokenA"
+    },
+    "7": {
+      "type": "block_index",
+      "label": "node & molecule_conversion",
+      "indices": [
+        1,
+        4
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_7",
+        "python": "N_x_CM",
+        "cpp": "N_x_CM",
+        "matlab": "N_x_CM",
+        "latex": "{N CM}",
+        "internal_code": "N & CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "type": "block_index",
+      "label": "molecule_conversion & molecule",
+      "indices": [
+        4,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_8",
+        "python": "CM_x_M",
+        "cpp": "CM_x_M",
+        "matlab": "CM_x_M",
+        "latex": "{CM M}",
+        "internal_code": "CM & M"
+      },
+      "tokens": [
+        "tokenA",
+        {
+          "instances": [
+            "A",
+            "B",
+            "C"
+          ],
+          "conversions": [
+            {
+              "reactants": [
+                "A",
+                "B"
+              ],
+              "products": [
+                "C"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Ontology_global_IDs": {
+    "variable": 36,
+    "equation": 44
+  }
+}

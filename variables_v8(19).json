@@ -1,0 +1,443 @@
+{
+  "version": "8",
+  "variables": {
+    "1": {
+      "aliases": "{'global_ID': ' V_1', 'python': 't', 'cpp': 't', 'matlab': 't', 'latex': 't', 'internal_code': 't'}",
+      "doc": "time",
+      "equations": "{}",
+      "index_structures": "[1]",
+      "label": "t",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "2": {
+      "aliases": "{'global_ID': ' V_2', 'python': 'value', 'cpp': 'value', 'matlab': 'value', 'latex': '{\\\\#}', 'internal_code': 'value'}",
+      "doc": "numerical value",
+      "equations": "{}",
+      "index_structures": "[]",
+      "label": "value",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "3": {
+      "aliases": "{'global_ID': ' V_3', 'python': 'to', 'cpp': 'to', 'matlab': 'to', 'latex': '{t^o}', 'internal_code': 'to'}",
+      "doc": "starting time",
+      "equations": "{1: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'starting time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "to",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "4": {
+      "aliases": "{'global_ID': ' V_4', 'python': 'te', 'cpp': 'te', 'matlab': 'te', 'latex': '{t^e}', 'internal_code': 'te'}",
+      "doc": "end time",
+      "equations": "{2: {'rhs': ' O_11 D_0 V_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'end time', 'network': 'root', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "te",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "frame",
+      "units": "[1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "5": {
+      "aliases": "{'global_ID': ' V_5', 'python': 'x', 'cpp': 'x', 'matlab': 'x', 'latex': 'x', 'internal_code': 'x'}",
+      "doc": "state - length",
+      "equations": "{13: {'rhs': ' O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_17', 'type': 'generic', 'doc': 'state - length', 'network': 'System', 'incidence_list': ['1', '16', '17', '3', '4']}}",
+      "index_structures": "[1]",
+      "label": "x",
+      "network": "System",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "7": {
+      "aliases": "{'global_ID': ' V_7', 'python': 'K', 'cpp': 'K', 'matlab': 'K', 'latex': 'K', 'internal_code': 'K'}",
+      "doc": "frequency a",
+      "equations": "{3: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'frequency a', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "K",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "8": {
+      "aliases": "{'global_ID': ' V_8', 'python': 'L', 'cpp': 'L', 'matlab': 'L', 'latex': 'L', 'internal_code': 'L'}",
+      "doc": "frequency b",
+      "equations": "{4: {'rhs': ' O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1', 'type': 'generic', 'doc': 'frequency b', 'network': 'System', 'incidence_list': ['1', '2']}}",
+      "index_structures": "[1]",
+      "label": "L",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "9": {
+      "aliases": "{'global_ID': ' V_9', 'python': 'M', 'cpp': 'M', 'matlab': 'M', 'latex': 'M', 'internal_code': 'M'}",
+      "doc": "gain a",
+      "equations": "{5: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'gain a', 'network': 'System', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "M",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "10": {
+      "aliases": "{'global_ID': ' V_10', 'python': 'N', 'cpp': 'N', 'matlab': 'N', 'latex': 'N', 'internal_code': 'N'}",
+      "doc": "gain b",
+      "equations": "{6: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'gain b', 'network': 'System', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "N",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "11": {
+      "aliases": "{'global_ID': ' V_11', 'python': 'pi_a', 'cpp': 'pi_a', 'matlab': 'pi_a', 'latex': '{\\\\pi^a}', 'internal_code': 'pi_a'}",
+      "doc": "effort a",
+      "equations": "{7: {'rhs': ' V_9 O_4 V_5', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['5', '9']}, 14: {'rhs': ' O_11 D_0 V_11 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort a', 'network': 'System', 'incidence_list': ['11', '2']}}",
+      "index_structures": "[1]",
+      "label": "pi_a",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "12": {
+      "aliases": "{'global_ID': ' V_12', 'python': 'pi_b', 'cpp': 'pi_b', 'matlab': 'pi_b', 'latex': '{\\\\pi^b}', 'internal_code': 'pi_b'}",
+      "doc": "effort b",
+      "equations": "{8: {'rhs': ' V_10 O_4 V_5', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['10', '5']}, 15: {'rhs': ' O_11 D_0 V_12 D_7 V_2 D_1', 'type': 'generic', 'doc': 'effort b', 'network': 'System', 'incidence_list': ['12', '2']}}",
+      "index_structures": "[1]",
+      "label": "pi_b",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "13": {
+      "aliases": "{'global_ID': ' V_13', 'python': 'F', 'cpp': 'F', 'matlab': 'F', 'latex': 'F', 'internal_code': 'F'}",
+      "doc": "directed graph incidence matrix",
+      "equations": "{}",
+      "index_structures": "[1, 2]",
+      "label": "F",
+      "network": "root",
+      "port_variable": "True",
+      "tokens": "[]",
+      "type": "network",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "14": {
+      "aliases": "{'global_ID': ' V_14', 'python': 'fx_a', 'cpp': 'fx_a', 'matlab': 'fx_a', 'latex': '{\\\\hat{x}^a}', 'internal_code': 'fx_a'}",
+      "doc": "flow of x mechanism a",
+      "equations": "{9: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_7 O_4 V_13  O_5  I_1 O_5  V_11 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['11', '13', '13', '7']}, 20: {'rhs': ' O_11 D_0 V_14 D_7 V_2 D_1', 'type': 'generic', 'doc': 'flow of x mechanism a', 'network': 'System', 'incidence_list': ['14', '2']}}",
+      "index_structures": "[1]",
+      "label": "fx_a",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "15": {
+      "aliases": "{'global_ID': ' V_15', 'python': 'fx_b', 'cpp': 'fx_b', 'matlab': 'fx_b', 'latex': '{\\\\hat{x}^b}', 'internal_code': 'fx_b'}",
+      "doc": "flow of x mechanism b",
+      "equations": "{10: {'rhs': ' V_13  O_5  I_2 O_5  D_0 V_8 O_4 V_13  O_5  I_1 O_5  V_12 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['12', '13', '13', '8']}, 21: {'rhs': ' O_11 D_0 V_15 D_7 V_2 D_1', 'type': 'generic', 'doc': 'flow of x mechanism b', 'network': 'System', 'incidence_list': ['15', '2']}}",
+      "index_structures": "[1]",
+      "label": "fx_b",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "transport",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "16": {
+      "aliases": "{'global_ID': ' V_16', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
+      "doc": "differential state",
+      "equations": "{11: {'rhs': ' V_14 O_0 V_15', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['14', '15']}, 18: {'rhs': ' O_11 D_0 V_16 D_7 V_18 D_1', 'type': 'generic', 'doc': 'differential state', 'network': 'System', 'incidence_list': ['16', '18']}}",
+      "index_structures": "[1]",
+      "label": "dx",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[-1, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "17": {
+      "aliases": "{'global_ID': ' V_17', 'python': 'xo', 'cpp': 'xo', 'matlab': 'xo', 'latex': '{x^o}', 'internal_code': 'xo'}",
+      "doc": "initial condition",
+      "equations": "{12: {'rhs': ' O_11 D_0 V_5 D_7 V_2 D_1', 'type': 'generic', 'doc': 'initial condition', 'network': 'System', 'incidence_list': ['2', '5']}}",
+      "index_structures": "[1]",
+      "label": "xo",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    },
+    "18": {
+      "aliases": "{'global_ID': ' V_18', 'python': 'null', 'cpp': 'null', 'matlab': 'null', 'latex': '0', 'internal_code': 'null'}",
+      "doc": "numerical value 0",
+      "equations": "{16: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 0', 'network': 'root', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "null",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "19": {
+      "aliases": "{'global_ID': ' V_19', 'python': 'one', 'cpp': 'one', 'matlab': 'one', 'latex': '1', 'internal_code': 'one'}",
+      "doc": "numerical value 1",
+      "equations": "{17: {'rhs': ' O_11 D_0 V_2 D_7 V_2 D_1', 'type': 'generic', 'doc': 'numerical value 1', 'network': 'root', 'incidence_list': ['2', '2']}}",
+      "index_structures": "[]",
+      "label": "one",
+      "network": "root",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "constant",
+      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "20": {
+      "aliases": "{'global_ID': ' V_20', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': '{\\\\V{\\\\pi}}', 'internal_code': 'pi_stack'}",
+      "doc": "the stack of intensive variables",
+      "equations": "{19: {'rhs': ' F_20 D_0 V_11 D_7 V_12 D_1', 'type': 'generic', 'doc': 'the stack of intensive variables', 'network': 'System', 'incidence_list': ['11', '12']}}",
+      "index_structures": "[1]",
+      "label": "pi_stack",
+      "network": "System",
+      "port_variable": "False",
+      "tokens": "[]",
+      "type": "state",
+      "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
+    }
+  },
+  "indices": {
+    "1": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_1",
+        "python": "N",
+        "cpp": "N",
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N"
+      },
+      "tokens": null
+    },
+    "2": {
+      "type": "index",
+      "label": "arc",
+      "network": [
+        "root",
+        "System",
+        "Properties",
+        "Control"
+      ],
+      "aliases": {
+        "global_ID": " I_2",
+        "python": "A",
+        "cpp": "A",
+        "matlab": "A",
+        "latex": "A",
+        "internal_code": "A"
+      },
+      "tokens": null
+    },
+    "3": {
+      "type": "index",
+      "label": "molecule",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_3",
+        "python": "M",
+        "cpp": "M",
+        "matlab": "M",
+        "latex": "M",
+        "internal_code": "M"
+      },
+      "tokens": "tokenA"
+    },
+    "4": {
+      "type": "index",
+      "label": "molecule_conversion",
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_4",
+        "python": "CM",
+        "cpp": "CM",
+        "matlab": "CM",
+        "latex": "CM",
+        "internal_code": "CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "5": {
+      "type": "block_index",
+      "label": "node & molecule",
+      "indices": [
+        1,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_5",
+        "python": "N_x_M",
+        "cpp": "N_x_M",
+        "matlab": "N_x_M",
+        "latex": "{N M}",
+        "internal_code": "N & M"
+      },
+      "tokens": "tokenA"
+    },
+    "6": {
+      "type": "block_index",
+      "label": "arc & molecule",
+      "indices": [
+        2,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_6",
+        "python": "A_x_M",
+        "cpp": "A_x_M",
+        "matlab": "A_x_M",
+        "latex": "{A M}",
+        "internal_code": "A & M"
+      },
+      "tokens": "tokenA"
+    },
+    "7": {
+      "type": "block_index",
+      "label": "node & molecule_conversion",
+      "indices": [
+        1,
+        4
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_7",
+        "python": "N_x_CM",
+        "cpp": "N_x_CM",
+        "matlab": "N_x_CM",
+        "latex": "{N CM}",
+        "internal_code": "N & CM"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C"
+            ]
+          }
+        ]
+      }
+    },
+    "8": {
+      "type": "block_index",
+      "label": "molecule_conversion & molecule",
+      "indices": [
+        4,
+        3
+      ],
+      "network": [
+        "System"
+      ],
+      "aliases": {
+        "global_ID": " I_8",
+        "python": "CM_x_M",
+        "cpp": "CM_x_M",
+        "matlab": "CM_x_M",
+        "latex": "{CM M}",
+        "internal_code": "CM & M"
+      },
+      "tokens": [
+        "tokenA",
+        {
+          "instances": [
+            "A",
+            "B",
+            "C"
+          ],
+          "conversions": [
+            {
+              "reactants": [
+                "A",
+                "B"
+              ],
+              "products": [
+                "C"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Ontology_global_IDs": {
+    "variable": 20,
+    "equation": 21
+  }
+}

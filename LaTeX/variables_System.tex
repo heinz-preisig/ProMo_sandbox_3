@@ -12,39 +12,59 @@
 \endlastfoot
 
 
-14
-             & \hypertarget{"v:14"}{ $ {{\hat{x}^a}}{_{N}} $}
-             & \verb|fx_a|
-             & flow of x mechanism a
+28
+             & \hypertarget{"v:28"}{ $ {{\hat{x}^{A,\alpha}}}{_{A}} $}
+             & \verb|fx_A_alpha|
+             & flow of A mechanism alpha
              & \begin{lay}transport \end{lay}
              & $ m s^{-1} \, $
              & []
-             & \hyperlink{"e:9"}{ 9 }
-                 \hyperlink{"e:20"}{ 20 }
+             & \hyperlink{"e:28"}{ 28 }
+                 \hyperlink{"e:47"}{ 47 }
                  \\
-    15
-             & \hypertarget{"v:15"}{ $ {{\hat{x}^b}}{_{N}} $}
-             & \verb|fx_b|
-             & flow of x mechanism b
+    29
+             & \hypertarget{"v:29"}{ $ {{\hat{x}^{A,\beta}}}{_{A}} $}
+             & \verb|fx_A_beta|
+             & flow of A mechanism beta
              & \begin{lay}transport \end{lay}
              & $ m s^{-1} \, $
              & []
-             & \hyperlink{"e:10"}{ 10 }
-                 \hyperlink{"e:21"}{ 21 }
+             & \hyperlink{"e:48"}{ 48 }
+                 \hyperlink{"e:49"}{ 49 }
+                 \\
+    32
+             & \hypertarget{"v:32"}{ $ {{\hat{y}^{B,\gamma}}}{_{A}} $}
+             & \verb|fy_B_gamma|
+             & flow of B mechanism gamma
+             & \begin{lay}transport \end{lay}
+             & $ s^{-1} \, $
+             & []
+             & \hyperlink{"e:31"}{ 31 }
+                 \hyperlink{"e:45"}{ 45 }
+                 \\
+    35
+             & \hypertarget{"v:35"}{ $ {{\hat{y}^{B,\delta}}}{_{A}} $}
+             & \verb|fy_B_delta|
+             & flow of B mechanism delta
+             & \begin{lay}transport \end{lay}
+             & $ s^{-1} \, $
+             & []
+             & \hyperlink{"e:34"}{ 34 }
+                 \hyperlink{"e:46"}{ 46 }
                  \\
     5
              & \hypertarget{"v:5"}{ $ {x}{_{N}} $}
              & \verb|x|
-             & state - length
+             & state token A
              & \begin{lay}state \end{lay}
              & $ m  $
              & []
-             & \hyperlink{"e:13"}{ 13 }
+             & \hyperlink{"e:38"}{ 38 }
                  \\
     11
-             & \hypertarget{"v:11"}{ $ {{\pi^a}}{_{N}} $}
-             & \verb|pi_a|
-             & effort a
+             & \hypertarget{"v:11"}{ $ {{\pi^{A,\alpha}}}{_{N}} $}
+             & \verb|pi_A_alpha|
+             & effort A mechanism alpha
              & \begin{lay}state \end{lay}
              & $ m  $
              & []
@@ -52,9 +72,9 @@
                  \hyperlink{"e:14"}{ 14 }
                  \\
     12
-             & \hypertarget{"v:12"}{ $ {{\pi^b}}{_{N}} $}
-             & \verb|pi_b|
-             & effort b
+             & \hypertarget{"v:12"}{ $ {{\pi^{A,\beta}}}{_{N}} $}
+             & \verb|pi_A_beta|
+             & effort A mechanism beta
              & \begin{lay}state \end{lay}
              & $ m  $
              & []
@@ -68,61 +88,150 @@
              & \begin{lay}state \end{lay}
              & $ m s^{-1} \, $
              & []
-             & \hyperlink{"e:11"}{ 11 }
-                 \hyperlink{"e:18"}{ 18 }
+             & \hyperlink{"e:18"}{ 18 }
+                 \hyperlink{"e:37"}{ 37 }
                  \\
     17
              & \hypertarget{"v:17"}{ $ {{x^o}}{_{N}} $}
              & \verb|xo|
-             & initial condition
+             & initial condition for token A
              & \begin{lay}state \end{lay}
              & $ m  $
              & []
              & \hyperlink{"e:12"}{ 12 }
                  \\
     20
-             & \hypertarget{"v:20"}{ $ {{\V{\pi}}}{_{N}} $}
-             & \verb|pi_stack|
-             & the stack of intensive variables
+             & \hypertarget{"v:20"}{ $ {{\V{\pi}^{A}}}{_{N}} $}
+             & \verb|pi_A_stack|
+             & the stack of intensive variables token A
              & \begin{lay}state \end{lay}
              & $ m  $
              & []
              & \hyperlink{"e:19"}{ 19 }
                  \\
+    21
+             & \hypertarget{"v:21"}{ $ {y}{_{N}} $}
+             & \verb|y|
+             & state token B
+             & \begin{lay}state \end{lay}
+             & $  $
+             & []
+             & \hyperlink{"e:39"}{ 39 }
+                 \\
+    24
+             & \hypertarget{"v:24"}{ $ {{\pi^{B,\gamma}}}{_{N}} $}
+             & \verb|pi_B_gamma|
+             & effort B mechanism gamma
+             & \begin{lay}state \end{lay}
+             & $  $
+             & []
+             & \hyperlink{"e:23"}{ 23 }
+                 \\
+    26
+             & \hypertarget{"v:26"}{ $ {{\dot{y}}}{_{N}} $}
+             & \verb|dy|
+             & differential state for token B
+             & \begin{lay}state \end{lay}
+             & $ s^{-1} \, $
+             & []
+             & \hyperlink{"e:35"}{ 35 }
+                 \hyperlink{"e:36"}{ 36 }
+                 \\
+    27
+             & \hypertarget{"v:27"}{ $ {{y^{o}}}{_{N}} $}
+             & \verb|yo|
+             & initial condition for token B
+             & \begin{lay}state \end{lay}
+             & $  $
+             & []
+             & \hyperlink{"e:26"}{ 26 }
+                 \\
+    33
+             & \hypertarget{"v:33"}{ $ {{\pi^{B,\delta}}}{_{N}} $}
+             & \verb|pi_B_delta|
+             & effort B mechansim delta
+             & \begin{lay}state \end{lay}
+             & $  $
+             & []
+             & \hyperlink{"e:32"}{ 32 }
+                 \\
+    36
+             & \hypertarget{"v:36"}{ $ {{\V{\pi}^{B}}}{_{N}} $}
+             & \verb|pi_B_stack|
+             & the stack of intensive variables token B
+             & \begin{lay}state \end{lay}
+             & $  $
+             & []
+             & \hyperlink{"e:44"}{ 44 }
+                 \\
     7
-             & \hypertarget{"v:7"}{ $ {K}{_{N}} $}
-             & \verb|K|
-             & frequency a
+             & \hypertarget{"v:7"}{ $ {{K^{A,\alpha}}}{_{N}} $}
+             & \verb|K_A_alpha|
+             & frequency token A
              & \begin{lay}constant \end{lay}
              & $ s^{-1} \, $
              & []
-             & \hyperlink{"e:3"}{ 3 }
+             & \hyperlink{"e:40"}{ 40 }
                  \\
     8
-             & \hypertarget{"v:8"}{ $ {L}{_{N}} $}
-             & \verb|L|
-             & frequency b
+             & \hypertarget{"v:8"}{ $ {{K^{A,\beta}}}{_{N}} $}
+             & \verb|K_A_beta|
+             & frequency token B
              & \begin{lay}constant \end{lay}
              & $ s^{-1} \, $
              & []
-             & \hyperlink{"e:4"}{ 4 }
+             & \hyperlink{"e:41"}{ 41 }
                  \\
     9
-             & \hypertarget{"v:9"}{ $ {M}{_{}} $}
-             & \verb|M|
-             & gain a
+             & \hypertarget{"v:9"}{ $ {{M^{A,\alpha}}}{_{}} $}
+             & \verb|M_A_alpha|
+             & norming factor token A mechanism alpha
              & \begin{lay}constant \end{lay}
              & $  $
              & []
-             & \hyperlink{"e:5"}{ 5 }
+             & \hyperlink{"e:42"}{ 42 }
                  \\
     10
-             & \hypertarget{"v:10"}{ $ {N}{_{}} $}
-             & \verb|N|
-             & gain b
+             & \hypertarget{"v:10"}{ $ {{M^{A,\beta}}}{_{}} $}
+             & \verb|M_A_beta|
+             & norming factor token A mechanism beta
              & \begin{lay}constant \end{lay}
              & $  $
              & []
-             & \hyperlink{"e:6"}{ 6 }
+             & \hyperlink{"e:43"}{ 43 }
                  \\
+    22
+             & \hypertarget{"v:22"}{ $ {{M^{B,\gamma}}}{_{}} $}
+             & \verb|M_B_gamma|
+             & norming factor token B mechanism gamma
+             & \begin{lay}constant \end{lay}
+             & $  $
+             & []
+             & \\
+    23
+             & \hypertarget{"v:23"}{ $ {{K^{B,\gamma}}}{_{N}} $}
+             & \verb|K_B_gamma|
+             & norming factor token A mechanism d
+             & \begin{lay}constant \end{lay}
+             & $ s^{-1} \, $
+             & []
+             & \hyperlink{"e:22"}{ 22 }
+                 \\
+    30
+             & \hypertarget{"v:30"}{ $ {{K^{B,\delta}}}{_{N}} $}
+             & \verb|K_B_delta|
+             & frequency B delta
+             & \begin{lay}constant \end{lay}
+             & $ s^{-1} \, $
+             & []
+             & \hyperlink{"e:30"}{ 30 }
+                 \\
+    31
+             & \hypertarget{"v:31"}{ $ {{M^{B,\delta}}}{_{}} $}
+             & \verb|M_B_delta|
+             & norming factor token B mechanism delta
+             & \begin{lay}constant \end{lay}
+             & $  $
+             & []
+             & \\
     \end{longtable}
