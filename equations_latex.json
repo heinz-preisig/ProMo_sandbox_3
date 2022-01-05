@@ -63,7 +63,7 @@
     "variable_ID": 20,
     "lhs": "{{\\V{\\pi}^{A}}}{_{N}}",
     "network": "System",
-    "rhs": "Stack\\left( {{\\pi^{A,\\alpha}}}{_{N}},{{\\pi^{A,\\beta}}}{_{N}} \\right)"
+    "rhs": "\\text{Stack}\\left( {{\\pi^{A,\\alpha}}}{_{N}},{{\\pi^{A,\\beta}}}{_{N}} \\right)"
   },
   "22": {
     "variable_ID": 23,
@@ -88,12 +88,6 @@
     "lhs": "{{\\hat{x}^{A,\\alpha}}}{_{A}}",
     "network": "System",
     "rhs": "{{K^{A,\\alpha}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\alpha}}}{_{N}}"
-  },
-  "29": {
-    "variable_ID": 29,
-    "lhs": "{{\\hat{x}^{A,\\beta}}}{_{A}}",
-    "network": "System",
-    "rhs": "{{K^{A,\\beta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}"
   },
   "30": {
     "variable_ID": 30,
@@ -177,7 +171,7 @@
     "variable_ID": 36,
     "lhs": "{{\\V{\\pi}^{B}}}{_{N}}",
     "network": "System",
-    "rhs": "Stack\\left( {{\\pi^{B,\\gamma}}}{_{N}},{{\\pi^{B,\\delta}}}{_{N}} \\right)"
+    "rhs": "\\text{Stack}\\left( {{\\pi^{B,\\gamma}}}{_{N}},{{\\pi^{B,\\delta}}}{_{N}} \\right)"
   },
   "45": {
     "variable_ID": 32,

@@ -89,12 +89,6 @@
     "network": "System",
     "rhs": "( K_A_alpha .* F )'  * pi_A_alpha"
   },
-  "29": {
-    "variable_ID": 29,
-    "lhs": "fx_A_beta",
-    "network": "System",
-    "rhs": "( K_A_beta .* F )'  * pi_A_beta"
-  },
   "30": {
     "variable_ID": 30,
     "lhs": "K_B_delta",

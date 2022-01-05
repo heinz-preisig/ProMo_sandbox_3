@@ -89,12 +89,6 @@
     "network": "System",
     "rhs": " V_7 O_4 V_13  O_5  I_1 O_5  V_11"
   },
-  "29": {
-    "variable_ID": 29,
-    "lhs": " V_29",
-    "network": "System",
-    "rhs": " V_8 O_4 V_13  O_5  I_1 O_5  V_12"
-  },
   "30": {
     "variable_ID": 30,
     "lhs": " V_30",
